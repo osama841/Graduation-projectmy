@@ -1,0 +1,46 @@
+[33m6b856af[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: checkout: moving from main to main
+[33m6b856af[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{1}: checkout: moving from main to main
+[33m6b856af[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{2}: checkout: moving from AES to main
+[33m988eb3f[m[33m ([m[1;31morigin/AES[m[33m, [m[1;32mAES[m[33m)[m HEAD@{3}: reset: moving to HEAD
+[33m988eb3f[m[33m ([m[1;31morigin/AES[m[33m, [m[1;32mAES[m[33m)[m HEAD@{4}: checkout: moving from main to AES
+[33m6b856af[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{5}: checkout: moving from main to main
+[33m6b856af[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{6}: commit (merge): Clean build outputs and VS cache files from repo
+[33m05b89aa[m HEAD@{7}: reset: moving to HEAD
+[33m05b89aa[m HEAD@{8}: merge origin/AES: updating HEAD
+[33m05b89aa[m HEAD@{9}: merge origin/AES: updating HEAD
+[33m05b89aa[m HEAD@{10}: checkout: moving from main to main
+[33m05b89aa[m HEAD@{11}: commit: Initial commit - Admin Panel UI Finished
+[33mbf17c86[m HEAD@{12}: commit: Update UI addmin project
+[33m01b542b[m HEAD@{13}: commit: Ignore .vs folder
+[33m03e0240[m HEAD@{14}: commit (merge): Resolve conflict: remove .vs/.suo
+[33mdbc18af[m HEAD@{15}: checkout: moving from main to main
+[33mdbc18af[m HEAD@{16}: commit: Fix gitignore
+[33m566878a[m HEAD@{17}: commit: Clean build and obj files
+[33m741fcaa[m HEAD@{18}: merge origin/AES: Merge made by the 'ort' strategy.
+[33m7c6a27f[m HEAD@{19}: reset: moving to HEAD
+[33m7c6a27f[m HEAD@{20}: reset: moving to HEAD
+[33m7c6a27f[m HEAD@{21}: checkout: moving from main to main
+[33m7c6a27f[m HEAD@{22}: checkout: moving from main to main
+[33m7c6a27f[m HEAD@{23}: merge AES-COR: Fast-forward
+[33m3d98b6c[m HEAD@{24}: checkout: moving from AES-COR to main
+[33m7c6a27f[m HEAD@{25}: commit: Add SecurePlayer new views and viewmodels from AES-COR branch
+[33m3d98b6c[m HEAD@{26}: checkout: moving from main to AES-COR
+[33m3d98b6c[m HEAD@{27}: checkout: moving from AES-COR to main
+[33m3d98b6c[m HEAD@{28}: checkout: moving from main to AES-COR
+[33m3d98b6c[m HEAD@{29}: checkout: moving from main to main
+[33m3d98b6c[m HEAD@{30}: checkout: moving from AES-COR to main
+[33m3d98b6c[m HEAD@{31}: checkout: moving from AES-COR to AES-COR
+[33m3d98b6c[m HEAD@{32}: checkout: moving from main to AES-COR
+[33m3d98b6c[m HEAD@{33}: commit: تحديث المجلد بالمافات العامه
+[33mdb79cd9[m HEAD@{34}: commit: تحديث المجلد بالمافات العامه
+[33m66a21ca[m HEAD@{35}: commit: تحديث المجلد بالمافات العامه
+[33m642a61b[m HEAD@{36}: commit: تحديث المجلد بالمافات العامه
+[33m6f87d1d[m HEAD@{37}: commit: part of implementing the main intefcae
+[33m770d94a[m HEAD@{38}: commit: Add project screenshots and demo
+[33mfa57d4a[m HEAD@{39}: commit: Refactor UI to use Custom Components & Implement Full Startup Flow
+[33m29a399e[m HEAD@{40}: commit: Add all source code and tests
+[33mf7aad96[m HEAD@{41}: pull origin main --allow-unrelated-histories: Fast-forward
+[33mb121e7d[m HEAD@{42}: commit: Add comprehensive README.md for project overview and team guidance.
+[33mfdd6a08[m HEAD@{43}: Branch: renamed refs/heads/master to refs/heads/main
+[33mfdd6a08[m HEAD@{45}: commit: Initial project structure setup with C++ and C# projects.
+[33m6f8dec0[m HEAD@{46}: commit (initial): Initial project structure setup with C++ and C# projects.

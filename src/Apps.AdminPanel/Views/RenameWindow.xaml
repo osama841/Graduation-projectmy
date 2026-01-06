@@ -1,0 +1,28 @@
+﻿<Window x:Class="Apps.AdminPanel.Views.RenameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:components="clr-namespace:Apps.AdminPanel.Components"
+        Title="إعادة التسمية" Height="250" Width="400"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None" ResizeMode="NoResize"
+        AllowsTransparency="True" Background="Transparent"
+        FlowDirection="RightToLeft">
+
+    <Grid>
+        <Rectangle Fill="#0B0F19" Opacity="0.95" RadiusX="10" RadiusY="10"/>
+        <Border  BorderThickness="1" CornerRadius="10">
+            <Grid Margin="20">
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Text="تعديل اسم مساحة العمل" Foreground="{StaticResource BorderColor}" FontWeight="Bold" FontSize="16" Margin="0,0,0,15" HorizontalAlignment="Center"/>
+
+                    <components:TechTextBox x:Name="TxtNewName" Hint="الاسم الجديد" Icon="RenameBox" Margin="0,0,0,20"/>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <components:TechButton Title="حفظ" Icon="Check" Width="100" Margin="5" Click="BtnSave_Click"/>
+                        <components:TechButton Title="إلغاء" Icon="Close" Width="100" Margin="5" HighlightBrush="Red" GlowColor="Red" Click="BtnCancel_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

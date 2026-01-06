@@ -1,0 +1,20 @@
+﻿Apps.AdminPanel
+
+
+winexe
+C#
+.cs
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.AdminPanel\obj\Release\net9.0-windows\
+Apps.AdminPanel
+none
+false
+TRACE;RELEASE;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.AdminPanel\App.xaml
+292057969744
+22-376332020
+501027929109
+2241651687010
+Components\InfoCard.xaml;Components\SystemStartupLoader.xaml;Components\TechButton.xaml;Components\TechMessageBox.xaml;Components\TechPasswordBox.xaml;Components\TechTextBox.xaml;MainWindow.xaml;Themes\DarkTechTheme.xaml;Views\AddUserWindow.xaml;Views\CreateWorkspaceWindow.xaml;Views\DashboardHomeView.xaml;Views\DashboardWindow.xaml;Views\EditUserWindow.xaml;Views\EncryptedCntent.xaml;Views\EncryptionStatusView.xaml;Views\EncryptionWindow.xaml;Views\IntroWindow.xaml;Views\LicenseManagerView.xaml;Views\LoginWindow.xaml;Views\RegisterWindow.xaml;Views\RenameWindow.xaml;Views\SettingsDataView.xaml;Views\SettingsGeneralView.xaml;Views\SettingsSecurityView.xaml;Views\SettingsSystemView.xaml;Views\SettingsUsersView.xaml;Views\SplashWindow.xaml;Views\TermsWindow.xaml;Views\WelcomeWindow.xaml;
+
+True
+

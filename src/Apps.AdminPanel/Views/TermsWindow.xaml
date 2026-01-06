@@ -1,0 +1,170 @@
+﻿<Window x:Class="Apps.AdminPanel.Views.TermsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:components="clr-namespace:Apps.AdminPanel.Components"
+        mc:Ignorable="d"
+        Title="TermsWindow" Height="650" Width="900"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        Background="Transparent"
+        FlowDirection="RightToLeft">
+
+    <Border Background="{StaticResource AppBackground}"
+            BorderBrush="{StaticResource BorderColor}"
+            BorderThickness="1"
+            CornerRadius="4">
+
+        <Border.Effect>
+            <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="5" Opacity="0.4"/>
+        </Border.Effect>
+
+        <Grid>
+            <!-- خلفية زخرفية خفيفة جداً (اختياري) -->
+            <materialDesign:PackIcon Kind="ShieldCheckOutline" 
+                                   Width="184" Height="186" 
+                                   HorizontalAlignment="Right" VerticalAlignment="Bottom" 
+                                   Margin="0,0,-100,-100" 
+                                   Foreground="{StaticResource ControlBackground}" 
+                                   Opacity="0.5"/>
+
+            <Grid Margin="40">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- العنوان -->
+                    <RowDefinition Height="*"/>
+                    <!-- المحتوى -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- الإقرار -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- الأزرار -->
+                </Grid.RowDefinitions>
+
+                <!-- العنوان -->
+                <StackPanel Grid.Row="0" Margin="0,0,0,30" HorizontalAlignment="Center">
+                    <materialDesign:PackIcon Kind="FileDocumentEditOutline" Width="50" Height="50" Foreground="{StaticResource AccentColor}" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                    <TextBlock Text="سياسة الخصوصية وشروط الاستخدام"
+                               Foreground="{StaticResource TextPrimary}"
+                               FontSize="24"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"/>
+                    <TextBlock Text="يرجى قراءة الشروط التالية بعناية قبل استخدام النظام"
+                               Foreground="{StaticResource TextSecondary}"
+                               FontSize="14"
+                               HorizontalAlignment="Center"
+                               Margin="0,5,0,0"/>
+                </StackPanel>
+
+                <!-- محتوى الشروط -->
+                <Border Grid.Row="1" 
+                        Background="{StaticResource PanelBackground}" 
+                        BorderBrush="{StaticResource BorderColor}" 
+                        BorderThickness="1" 
+                        CornerRadius="4" 
+                        Padding="20"
+                        Margin="0,0,0,20">
+
+                    <ScrollViewer VerticalScrollBarVisibility="Auto" Padding="0,0,0,0">
+                        <StackPanel>
+                            <!-- القسم 1 -->
+                            <StackPanel Margin="0,0,0,20">
+                                <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                    <materialDesign:PackIcon Kind="Gavel" Foreground="{StaticResource AccentColor}" VerticalAlignment="Center"/>
+                                    <TextBlock Text="1. القواعد والشروط العامة" Foreground="{StaticResource TextPrimary}" FontWeight="Bold" FontSize="16" Margin="10,0,0,0"/>
+                                </StackPanel>
+                                <TextBlock TextWrapping="Wrap" Foreground="{StaticResource TextSecondary}" LineHeight="22" Margin="25,0,0,0">
+                                    هذا النظام مخصص للاستخدام الرسمي فقط. جميع العمليات التي تتم عبر هذا النظام مراقبة ومسجلة لضمان الجودة والأمان.
+                                    يمنع منعاً باتاً محاولة تجاوز صلاحيات الوصول الممنوحة لك أو استخدام النظام لأغراض غير المصرح بها.
+                                </TextBlock>
+                            </StackPanel>
+
+                            <!-- القسم 2 -->
+                            <StackPanel Margin="0,0,0,20">
+                                <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                    <materialDesign:PackIcon Kind="ShieldLock" Foreground="{StaticResource AccentColor}" VerticalAlignment="Center"/>
+                                    <TextBlock Text="2. سياسة الخصوصية وأمن البيانات" Foreground="{StaticResource TextPrimary}" FontWeight="Bold" FontSize="16" Margin="10,0,0,0"/>
+                                </StackPanel>
+                                <TextBlock TextWrapping="Wrap" Foreground="{StaticResource TextSecondary}" LineHeight="22" Margin="25,0,0,0">
+                                    نحن نلتزم بحماية خصوصية بياناتك وبيانات العملاء. يتم تشفير كافة البيانات الحساسة باستخدام بروتوكولات تشفير متقدمة (AES-256).
+                                    يتحمل المستخدم المسؤولية الكاملة عن الحفاظ على سرية مفاتيح التشفير وكلمات المرور الخاصة به.
+                                </TextBlock>
+                            </StackPanel>
+
+                            <!-- القسم 3 -->
+                            <StackPanel Margin="0,0,0,20">
+                                <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                    <materialDesign:PackIcon Kind="Copyright" Foreground="{StaticResource AccentColor}" VerticalAlignment="Center"/>
+                                    <TextBlock Text="3. حقوق الملكية الفكرية" Foreground="{StaticResource TextPrimary}" FontWeight="Bold" FontSize="16" Margin="10,0,0,0"/>
+                                </StackPanel>
+                                <TextBlock TextWrapping="Wrap" Foreground="{StaticResource TextSecondary}" LineHeight="22" Margin="25,0,0,0">
+                                    جميع حقوق البرمجيات، التصاميم، والأكواد المصدرية محفوظة لشركة المستقبل للتقنية. لا يجوز نسخ، تعديل، أو إعادة توزيع أي جزء من هذا النظام دون إذن كتابي مسبق.
+                                </TextBlock>
+                            </StackPanel>
+
+                            <!-- القسم 4 -->
+                            <StackPanel Margin="0,0,0,10">
+                                <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                    <materialDesign:PackIcon Kind="AlertCircleOutline" Foreground="{StaticResource AccentColor}" VerticalAlignment="Center"/>
+                                    <TextBlock Text="4. إخلاء المسؤولية" Foreground="{StaticResource TextPrimary}" FontWeight="Bold" FontSize="16" Margin="10,0,0,0"/>
+                                </StackPanel>
+                                <TextBlock TextWrapping="Wrap" Foreground="{StaticResource TextSecondary}" LineHeight="22" Margin="25,0,0,0">
+                                    الشركة غير مسؤولة عن أي فقدان للبيانات ناتج عن سوء استخدام مفاتيح التشفير أو نسيان كلمات المرور، حيث أن النظام لا يحتفظ بنسخ من مفاتيح فك التشفير الخاصة بالمستخدم لضمان الخصوصية التامة.
+                                </TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Border>
+
+                <!-- خيارات الموافقة -->
+                <StackPanel Grid.Row="2" Margin="0,0,0,30" HorizontalAlignment="Center">
+                    <RadioButton x:Name="RbAgree" 
+                                 GroupName="TermsGroup"
+                                 Style="{StaticResource MaterialDesignRadioButton}"
+                                 Foreground="{StaticResource TextPrimary}"
+                                 Margin="0,0,0,10">
+                        <TextBlock Text="قرأت الشروط والأحكام المذكورة أعلاه وأوافق عليها بالكامل" FontSize="14"/>
+                    </RadioButton>
+
+                    <RadioButton x:Name="RbReject" 
+                                 GroupName="TermsGroup"
+                                 IsChecked="True"
+                                 Style="{StaticResource MaterialDesignRadioButton}"
+                                 Foreground="{StaticResource ErrorBrush}">
+                        <TextBlock Text="لا أوافق (سيتم إغلاق التطبيق)" FontSize="14"/>
+                    </RadioButton>
+                </StackPanel>
+
+                <!-- الأزرار -->
+                <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+
+                    <components:TechButton Title="أوافق وأتابع"
+                                           Icon="CheckBold"
+                                           Width="220"
+                                           Height="45"
+                                           Margin="10,0"
+                                           Background="{StaticResource AccentColor}"
+                                           HighlightBrush="White"
+                                           BorderThickness="0"
+                                           Click="BtnAgree_Click"
+                                           IsEnabled="{Binding ElementName=RbAgree, Path=IsChecked}"/>
+
+                    <components:TechButton Title="خروج"
+                                           Icon="ExitToApp"
+                                           Width="150"
+                                           Height="45"
+                                           Margin="10,0"
+                                           Background="Transparent"
+                                           BorderBrush="{StaticResource ErrorBrush}"
+                                           BorderThickness="1"
+                                           HighlightBrush="{StaticResource ErrorBrush}"
+                                           Click="BtnExit_Click"/>
+                </StackPanel>
+
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

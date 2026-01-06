@@ -1,0 +1,208 @@
+﻿<UserControl x:Class="Apps.AdminPanel.Views.SettingsUsersView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:components="clr-namespace:Apps.AdminPanel.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="900"
+             FlowDirection="RightToLeft">
+
+    <Grid>
+        <!-- العنوان الرئيسي -->
+        <TextBlock Text="إدارة المستخدمين" 
+                   Foreground="{StaticResource TextPrimary}" 
+                   FontSize="26" FontWeight="SemiBold" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Top"
+                   Margin="0,0,0,20"/>
+
+        <!-- البطاقة الرئيسية -->
+        <Border Margin="20,50,20,20"
+                BorderBrush="{StaticResource BorderColor}"
+                BorderThickness="1"
+                CornerRadius="4"
+                Background="{StaticResource PanelBackground}">
+
+            <Border.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="10" ShadowDepth="2" Opacity="0.15"/>
+            </Border.Effect>
+
+            <Grid Margin="30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- شريط البحث -->
+                    <RowDefinition Height="*"/>
+                    <!-- الجدول -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- التنقل -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- الأزرار -->
+                </Grid.RowDefinitions>
+
+                <!-- شريط البحث والإضافة -->
+                <Grid Grid.Row="0" Margin="0,0,0,20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <components:TechTextBox Hint="بحث عن مستخدم..." 
+                                            Icon="Magnify" 
+                                            Height="45"
+                                            Background="{StaticResource ControlBackground}"
+                                            Foreground="{StaticResource TextPrimary}"/>
+
+                    <components:TechButton Grid.Column="2" 
+                                           Title="إضافة مستخدم جديد" 
+                                           Icon="AccountPlus" 
+                                           Width="200" 
+                                           Height="45"
+                                           Background="{StaticResource AccentColor}"
+                                           HighlightBrush="White"
+                                           BorderThickness="0"
+                                           FontSize="13"
+                                           Click="BtnAddUser_Click"/>
+                </Grid>
+
+                <!-- جدول البيانات -->
+                <DataGrid Grid.Row="1" x:Name="UsersGrid"
+                          Background="Transparent"
+                          BorderThickness="0"
+                          AutoGenerateColumns="False"
+                          CanUserAddRows="False"
+                          IsReadOnly="True"
+                          HeadersVisibility="Column"
+                          GridLinesVisibility="Horizontal"
+                          HorizontalGridLinesBrush="{StaticResource BorderColor}"
+                          Foreground="{StaticResource TextPrimary}">
+
+                    <DataGrid.Resources>
+                        <!-- ستايل بسيط للرأس -->
+                        <Style TargetType="DataGridColumnHeader" BasedOn="{StaticResource MaterialDesignDataGridColumnHeader}">
+                            <Setter Property="Foreground" Value="{StaticResource TextSecondary}"/>
+                            <Setter Property="FontWeight" Value="SemiBold"/>
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                            <Setter Property="BorderBrush" Value="{StaticResource BorderColor}"/>
+                            <Setter Property="Padding" Value="10"/>
+                        </Style>
+                        <!-- ستايل للصفوف -->
+                        <Style TargetType="DataGridCell" BasedOn="{StaticResource MaterialDesignDataGridCell}">
+                            <Setter Property="Padding" Value="10"/>
+                            <Setter Property="BorderThickness" Value="0"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="DataGridCell">
+                                        <Border BorderThickness="0" Background="Transparent">
+                                            <ContentPresenter VerticalAlignment="Center" />
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </DataGrid.Resources>
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="60" ElementStyle="{StaticResource MaterialDesignDataGridTextColumnStyle}"/>
+
+                        <DataGridTemplateColumn Header="المستخدم" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon Kind="AccountCircle" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                                        <TextBlock Text="{Binding Username}" VerticalAlignment="Center" FontWeight="Medium"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTextColumn Header="البريد الإلكتروني" Binding="{Binding Email}" Width="1.5*" ElementStyle="{StaticResource MaterialDesignDataGridTextColumnStyle}"/>
+
+                        <DataGridTemplateColumn Header="بصمة الجهاز (Key)" Width="1.5*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding DeviceKey}" Foreground="{StaticResource TextMuted}" FontFamily="Consolas" VerticalAlignment="Center"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn Header="الحالة" Width="120">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <!-- StatusColor يجب أن يكون مربوطاً بلون (SolidColorBrush) -->
+                                    <Border Background="{Binding StatusColor}" CornerRadius="4" Padding="8,4" HorizontalAlignment="Center">
+                                        <TextBlock Text="{Binding Status}" Foreground="White" FontSize="11" FontWeight="SemiBold"/>
+                                    </Border>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTemplateColumn Header="الإجراءات" Width="100">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                        <Button Style="{StaticResource MaterialDesignIconForegroundButton}" 
+                                                ToolTip="تعديل" Width="30" Height="30" 
+                                                Foreground="{StaticResource AccentColor}" 
+                                                Click="BtnEditUserInGrid_Click">
+                                            <materialDesign:PackIcon Kind="PencilOutline" Width="18" Height="18"/>
+                                        </Button>
+                                        <Button Style="{StaticResource MaterialDesignIconForegroundButton}" 
+                                                ToolTip="حذف" Width="30" Height="30" 
+                                                Foreground="{StaticResource ErrorBrush}">
+                                            <materialDesign:PackIcon Kind="DeleteOutline" Width="18" Height="18"/>
+                                        </Button>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <!-- التنقل (Pagination) -->
+                <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,30">
+                    <Button Style="{StaticResource MaterialDesignIconForegroundButton}" Foreground="{StaticResource TextSecondary}" ToolTip="الصفحة الأخيرة">
+                        <materialDesign:PackIcon Kind="ChevronDoubleRight"/>
+                    </Button>
+                    <Button Style="{StaticResource MaterialDesignIconForegroundButton}" Foreground="{StaticResource TextSecondary}" ToolTip="التالي">
+                        <materialDesign:PackIcon Kind="ChevronRight"/>
+                    </Button>
+
+                    <TextBlock Text="صفحة 1 من 5" VerticalAlignment="Center" Foreground="{StaticResource TextPrimary}" Margin="15,0" FontWeight="Medium"/>
+
+                    <Button Style="{StaticResource MaterialDesignIconForegroundButton}" Foreground="{StaticResource TextSecondary}" ToolTip="السابق">
+                        <materialDesign:PackIcon Kind="ChevronLeft"/>
+                    </Button>
+                    <Button Style="{StaticResource MaterialDesignIconForegroundButton}" Foreground="{StaticResource TextSecondary}" ToolTip="الصفحة الأولى">
+                        <materialDesign:PackIcon Kind="ChevronDoubleLeft"/>
+                    </Button>
+                </StackPanel>
+
+                <!-- أزرار الحفظ -->
+                <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                    <components:TechButton Title="حفظ التغييرات" 
+                                           Icon="ContentSave" 
+                                           Width="180" 
+                                           Margin="10,0"
+                                           Background="{StaticResource AccentColor}"
+                                           HighlightBrush="White"
+                                           BorderThickness="0"
+                                           Click="BtnSave_Click"/>
+
+                    <components:TechButton Title="تحديث القائمة" 
+                                           Icon="Refresh" 
+                                           Width="180" 
+                                           Margin="10,0"
+                                           Background="Transparent"
+                                           BorderBrush="{StaticResource BorderColor}"
+                                           BorderThickness="1"
+                                           HighlightBrush="{StaticResource TextPrimary}"
+                                           Click="BtnReset_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

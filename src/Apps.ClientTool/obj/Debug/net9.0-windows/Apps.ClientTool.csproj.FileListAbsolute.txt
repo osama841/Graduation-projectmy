@@ -1,0 +1,141 @@
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.exe
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.deps.json
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.runtimeconfig.json
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.pdb
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\DRM.Shared.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\DRM.Shared.pdb
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool_MarkupCompile.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.g.resources
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.AssemblyInfo.cs
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.sourcelink.json
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.Cli.4764D3DF.Up2Date
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\refint\Apps.ClientTool.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.pdb
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.genruntimeconfig.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\ref\Apps.ClientTool.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.exe
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.deps.json
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.runtimeconfig.json
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.pdb
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\MaterialDesignColors.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\DRM.Shared.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\bin\Debug\net9.0-windows\DRM.Shared.pdb
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool_Content.g.cs
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool_MarkupCompile.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.g.resources
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.AssemblyInfo.cs
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.sourcelink.json
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.Cli.4764D3DF.Up2Date
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\refint\Apps.ClientTool.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.pdb
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.genruntimeconfig.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.ClientTool\obj\Debug\net9.0-windows\ref\Apps.ClientTool.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.exe
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.deps.json
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.runtimeconfig.json
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.pdb
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\MaterialDesignColors.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\MaterialDesignThemes.Wpf.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\DRM.Shared.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\DRM.Shared.pdb
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.csproj.AssemblyReference.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\MainWindow.baml
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\MainWindow.g.cs
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\App.g.cs
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool_Content.g.cs
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool_MarkupCompile.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.g.resources
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.GeneratedMSBuildEditorConfig.editorconfig
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.AssemblyInfoInputs.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.AssemblyInfo.cs
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.csproj.CoreCompileInputs.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.sourcelink.json
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.Cli.4764D3DF.Up2Date
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\refint\Apps.ClientTool.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.pdb
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.genruntimeconfig.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\ref\Apps.ClientTool.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.exe
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.deps.json
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.runtimeconfig.json
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.pdb
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\MaterialDesignColors.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\DRM.Shared.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\bin\Debug\net9.0-windows\DRM.Shared.pdb
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.csproj.AssemblyReference.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool_Content.g.cs
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool_MarkupCompile.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.g.resources
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.AssemblyInfoInputs.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.AssemblyInfo.cs
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.csproj.CoreCompileInputs.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.sourcelink.json
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.Cli.4764D3DF.Up2Date
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\refint\Apps.ClientTool.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.pdb
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.genruntimeconfig.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.ClientTool\obj\Debug\net9.0-windows\ref\Apps.ClientTool.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.exe
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.deps.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.runtimeconfig.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\bin\Debug\net9.0-windows\Apps.ClientTool.pdb
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\bin\Debug\net9.0-windows\MaterialDesignColors.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\bin\Debug\net9.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\bin\Debug\net9.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\bin\Debug\net9.0-windows\DRM.Shared.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\bin\Debug\net9.0-windows\DRM.Shared.pdb
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.csproj.AssemblyReference.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool_Content.g.cs
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool_MarkupCompile.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.g.resources
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.AssemblyInfoInputs.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.AssemblyInfo.cs
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.csproj.CoreCompileInputs.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.sourcelink.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.Cli.4764D3DF.Up2Date
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\refint\Apps.ClientTool.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.pdb
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\Apps.ClientTool.genruntimeconfig.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.ClientTool\obj\Debug\net9.0-windows\ref\Apps.ClientTool.dll

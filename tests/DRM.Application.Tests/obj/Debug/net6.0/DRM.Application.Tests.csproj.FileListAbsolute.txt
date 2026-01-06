@@ -1,0 +1,297 @@
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\testhost.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\testhost.exe
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.runner.visualstudio.testadapter.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\DRM.Application.Tests.deps.json
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\DRM.Application.Tests.runtimeconfig.json
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\DRM.Application.Tests.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\DRM.Application.Tests.pdb
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.abstractions.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.assert.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.core.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.execution.dotnet.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.csproj.AssemblyReference.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.AssemblyInfoInputs.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.AssemblyInfo.cs
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.csproj.CoreCompileInputs.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.sourcelink.json
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Appl.FE7986C0.Up2Date
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\refint\DRM.Application.Tests.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.pdb
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.genruntimeconfig.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\ref\DRM.Application.Tests.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\testhost.exe
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\testhost.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\DRM.Application.Tests.deps.json
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\DRM.Application.Tests.runtimeconfig.json
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\DRM.Application.Tests.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\DRM.Application.Tests.pdb
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.abstractions.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.assert.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.core.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.execution.dotnet.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.csproj.AssemblyReference.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.AssemblyInfoInputs.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.AssemblyInfo.cs
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.sourcelink.json
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Appl.FE7986C0.Up2Date
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\refint\DRM.Application.Tests.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.pdb
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.genruntimeconfig.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\tests\DRM.Application.Tests\obj\Debug\net6.0\ref\DRM.Application.Tests.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\testhost.exe
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\testhost.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\DRM.Application.Tests.deps.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\DRM.Application.Tests.runtimeconfig.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\DRM.Application.Tests.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\DRM.Application.Tests.pdb
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.abstractions.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.assert.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.core.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\xunit.execution.dotnet.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.csproj.AssemblyReference.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.AssemblyInfoInputs.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.AssemblyInfo.cs
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.sourcelink.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Appl.FE7986C0.Up2Date
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\obj\Debug\net6.0\refint\DRM.Application.Tests.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.pdb
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\obj\Debug\net6.0\DRM.Application.Tests.genruntimeconfig.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\tests\DRM.Application.Tests\obj\Debug\net6.0\ref\DRM.Application.Tests.dll

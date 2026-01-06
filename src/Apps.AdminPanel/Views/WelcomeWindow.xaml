@@ -1,0 +1,139 @@
+﻿<Window x:Class="Apps.AdminPanel.Views.WelcomeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:components="clr-namespace:Apps.AdminPanel.Components"
+        mc:Ignorable="d"
+        Title="WelcomeWindow" Height="550" Width="850"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        Background="Transparent"
+        FlowDirection="RightToLeft"
+        MouseDown="Window_MouseDown">
+
+    <!-- الإطار الرئيسي مع الظل -->
+    <Border Background="{StaticResource AppBackground}"
+            BorderBrush="{StaticResource BorderColor}"
+            BorderThickness="1"
+            CornerRadius="4">
+
+        <Border.Effect>
+            <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="5" Opacity="0.4"/>
+        </Border.Effect>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="320"/>
+                <!-- الشريط الجانبي (يمين في RTL) -->
+                <ColumnDefinition Width="*"/>
+                <!-- المحتوى (يسار في RTL) -->
+            </Grid.ColumnDefinitions>
+
+            <!-- الجانب الأيمن: العلامة التجارية -->
+            <Border Grid.Column="0" 
+                    Background="{StaticResource PanelBackground}"
+                    BorderBrush="{StaticResource BorderColor}"
+                    BorderThickness="0,0,1,0"
+                    CornerRadius="0,4,4,0">
+                <!-- انحناء من الجهة اليسرى فقط -->
+
+                <Grid>
+                    <!-- زخرفة خلفية خفيفة -->
+                    <materialDesign:PackIcon Kind="SecurityNetwork" 
+                                           Width="250" Height="250" 
+                                           HorizontalAlignment="Left" VerticalAlignment="Bottom" 
+                                           Margin="-50,-50,0,0" 
+                                           Foreground="{StaticResource ControlBackground}" 
+                                           Opacity="0.3"/>
+
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <!-- دائرة الشعار -->
+                        <Border Width="100" Height="100" 
+                                CornerRadius="50" 
+                                Background="{StaticResource AppBackground}" 
+                                BorderBrush="{StaticResource BorderColor}"
+                                BorderThickness="1"
+                                Margin="0,0,0,20">
+                            <materialDesign:PackIcon Kind="ShieldLock" 
+                                                   Width="50" Height="50" 
+                                                   Foreground="{StaticResource AccentColor}" 
+                                                   VerticalAlignment="Center" 
+                                                   HorizontalAlignment="Center"/>
+                        </Border>
+
+                        <TextBlock Text="نظام التشفير الآمن" 
+                                   Foreground="{StaticResource TextPrimary}" 
+                                   FontSize="22" 
+                                   FontWeight="Bold" 
+                                   HorizontalAlignment="Center"/>
+
+                        <TextBlock Text="الإصدار الاحترافي 1.0" 
+                                   Foreground="{StaticResource TextSecondary}" 
+                                   FontSize="14" 
+                                   HorizontalAlignment="Center" 
+                                   Margin="0,8,0,0"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <!-- الجانب الأيسر: رسالة الترحيب -->
+            <Grid Grid.Column="1" Margin="50">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Text="مرحباً بك مجدداً" 
+                               Foreground="{StaticResource TextPrimary}" 
+                               FontSize="32" 
+                               FontWeight="SemiBold" 
+                               Margin="0,0,0,20"/>
+
+                    <TextBlock Text="تم تثبيت النظام وتجهيزه بنجاح. بيئة العمل الخاصة بك جاهزة الآن لإدارة وتشفير الملفات الحساسة بأعلى معايير الأمان العالمية." 
+                               Foreground="{StaticResource TextSecondary}" 
+                               FontSize="16" 
+                               TextWrapping="Wrap" 
+                               LineHeight="28"
+                               Margin="0,0,0,30"/>
+
+                    <!-- قائمة التحقق السريع -->
+                    <StackPanel Margin="0,0,0,20">
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                            <materialDesign:PackIcon Kind="CheckCircle" Foreground="{StaticResource SuccessBrush}" VerticalAlignment="Center" Width="20" Height="20"/>
+                            <TextBlock Text="الاتصال بقاعدة البيانات آمن" Foreground="{StaticResource TextPrimary}" Margin="10,0,0,0" FontSize="14"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                            <materialDesign:PackIcon Kind="CheckCircle" Foreground="{StaticResource SuccessBrush}" VerticalAlignment="Center" Width="20" Height="20"/>
+                            <TextBlock Text="تم تحميل مفاتيح التشفير" Foreground="{StaticResource TextPrimary}" Margin="10,0,0,0" FontSize="14"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="CheckCircle" Foreground="{StaticResource SuccessBrush}" VerticalAlignment="Center" Width="20" Height="20"/>
+                            <TextBlock Text="المزامنة السحابية جاهزة (اختياري)" Foreground="{StaticResource TextPrimary}" Margin="10,0,0,0" FontSize="14"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- زر البدء -->
+                <components:TechButton Grid.Row="1"
+                                       x:Name="BtnStart"
+                                       Title="ابدأ الاستخدام الآن" 
+                                       Icon="RocketLaunch" 
+                                       Width="220" 
+                                       Height="50"
+                                       HorizontalAlignment="Left"
+                                       Background="{StaticResource AccentColor}"
+                                       HighlightBrush="White"
+                                       BorderThickness="0"
+                                       FontSize="16"
+                                       Click="BtnStart_Click"/>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

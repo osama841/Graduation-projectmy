@@ -1,0 +1,464 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\apps.adminpanel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\apps.adminpanel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\viewmodels\\encryptionvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\viewmodels\\encryptionvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\dbconection\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\dbconection\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\services\\encryptionservuces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\services\\encryptionservuces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\models\\assetsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\models\\assetsecurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Msbuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31B6BB42-6550-4C77-9165-66B94AC04D86}|src\\Apps.SecurePlayer\\Apps.SecurePlayer.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.secureplayer\\apps.secureplayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{31B6BB42-6550-4C77-9165-66B94AC04D86}|src\\Apps.SecurePlayer\\Apps.SecurePlayer.csproj|solutionrelative:src\\apps.secureplayer\\apps.secureplayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22154663-45BB-4606-A9AF-127689DFF309}|tests\\DRM.Application.Tests\\DRM.Application.Tests.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\tests\\drm.application.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22154663-45BB-4606-A9AF-127689DFF309}|tests\\DRM.Application.Tests\\DRM.Application.Tests.csproj|solutionrelative:tests\\drm.application.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D29C4645-0E81-F269-E1FC-7AEF2A3428FE}|tests\\DRM.Security.Native.Tests\\DRM.Security.Native.Tests.vcxproj|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\tests\\DRM.Security.Native.Tests\\DRM.Security.Native.Tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D29C4645-0E81-F269-E1FC-7AEF2A3428FE}|tests\\DRM.Security.Native.Tests\\DRM.Security.Native.Tests.vcxproj|solutionrelative:tests\\DRM.Security.Native.Tests\\DRM.Security.Native.Tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31B6BB42-6550-4C77-9165-66B94AC04D86}|src\\Apps.SecurePlayer\\Apps.SecurePlayer.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.secureplayer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31B6BB42-6550-4C77-9165-66B94AC04D86}|src\\Apps.SecurePlayer\\Apps.SecurePlayer.csproj|solutionrelative:src\\apps.secureplayer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31B6BB42-6550-4C77-9165-66B94AC04D86}|src\\Apps.SecurePlayer\\Apps.SecurePlayer.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.secureplayer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31B6BB42-6550-4C77-9165-66B94AC04D86}|src\\Apps.SecurePlayer\\Apps.SecurePlayer.csproj|solutionrelative:src\\apps.secureplayer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD9F870-C748-4B31-ADE0-321ED8788E1F}|src\\Apps.ClientTool\\Apps.ClientTool.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.clienttool\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5AD9F870-C748-4B31-ADE0-321ED8788E1F}|src\\Apps.ClientTool\\Apps.ClientTool.csproj|solutionrelative:src\\apps.clienttool\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD9F870-C748-4B31-ADE0-321ED8788E1F}|src\\Apps.ClientTool\\Apps.ClientTool.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.clienttool\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AD9F870-C748-4B31-ADE0-321ED8788E1F}|src\\Apps.ClientTool\\Apps.ClientTool.csproj|solutionrelative:src\\apps.clienttool\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37427DB6-9F53-4D06-836B-3B4A3DCCCC50}|src\\DRM.Shared\\DRM.Shared.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\drm.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37427DB6-9F53-4D06-836B-3B4A3DCCCC50}|src\\DRM.Shared\\DRM.Shared.csproj|solutionrelative:src\\drm.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native\\DRM.Security.Native.vcxproj|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\NativeLogger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native\\DRM.Security.Native.vcxproj|solutionrelative:DRM.Security.Native\\NativeLogger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native\\DRM.Security.Native.vcxproj|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\NativeLogger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native\\DRM.Security.Native.vcxproj|solutionrelative:DRM.Security.Native\\NativeLogger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native\\DRM.Security.Native.vcxproj|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\CoreResponse.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native\\DRM.Security.Native.vcxproj|solutionrelative:DRM.Security.Native\\CoreResponse.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native\\DRM.Security.Native.vcxproj|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native\\DRM.Security.Native.vcxproj|solutionrelative:DRM.Security.Native\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\helpers\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\helpers\\filehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\viewmodels\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\viewmodels\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\repositories\\contentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\repositories\\contentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\viewmodels\\useritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\viewmodels\\useritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|c:\\users\\osama\\desktop\\graduation projectmy\\graduation project\\src\\apps.adminpanel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B687F8EF-2246-40D5-A1F8-CA6EAAFDA7C8}|src\\Apps.AdminPanel\\Apps.AdminPanel.csproj|solutionrelative:src\\apps.adminpanel\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAEEWAAAAAAAAAAAQwFMWAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-12-03T22:02:11.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\DBconection\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\DBconection\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\DBconection\\AppDbContext.cs",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\DBconection\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:07:34.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EncryptionServuces.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Services\\EncryptionServuces.cs",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\Services\\EncryptionServuces.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Services\\EncryptionServuces.cs",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\Services\\EncryptionServuces.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:07:46.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Models\\Course.cs",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:08:08.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Models\\Asset.cs",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\Models\\Asset.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Models\\Asset.cs",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\Models\\Asset.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAA1wBEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:08:12.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssetSecurity.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Models\\AssetSecurity.cs",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\Models\\AssetSecurity.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Models\\AssetSecurity.cs",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\Models\\AssetSecurity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:08:11.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EncryptionVideo.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\ViewModels\\EncryptionVideo.cs",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\ViewModels\\EncryptionVideo.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\ViewModels\\EncryptionVideo.cs",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\ViewModels\\EncryptionVideo.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwGkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:22:06.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FileHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Helpers\\FileHelper.cs",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\Helpers\\FileHelper.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Helpers\\FileHelper.cs",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\Helpers\\FileHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T19:22:47.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Models\\User.cs",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Models\\User.cs",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\Models\\User.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:08:09.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\ViewModels\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\ViewModels\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\ViewModels\\DatabaseHelper.cs",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\ViewModels\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:09:08.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ContentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Repositories\\ContentRepository.cs",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\Repositories\\ContentRepository.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Repositories\\ContentRepository.cs",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\Repositories\\ContentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T19:07:24.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserItem.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\ViewModels\\UserItem.cs",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\ViewModels\\UserItem.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\ViewModels\\UserItem.cs",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\ViewModels\\UserItem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T13:08:56.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Microsoft.CppBuild.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
+              "ViewState": "AgIAAMsBAAAAAAAAAAAiwBkCAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-12-01T15:36:44.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Apps.SecurePlayer.csproj",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.SecurePlayer\\Apps.SecurePlayer.csproj",
+              "RelativeDocumentMoniker": "src\\Apps.SecurePlayer\\Apps.SecurePlayer.csproj",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.SecurePlayer\\Apps.SecurePlayer.csproj",
+              "RelativeToolTip": "src\\Apps.SecurePlayer\\Apps.SecurePlayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-01T15:35:31.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\tests\\DRM.Application.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "tests\\DRM.Application.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\tests\\DRM.Application.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "tests\\DRM.Application.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T19:04:08.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DRM.Security.Native.Tests.cpp",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\tests\\DRM.Security.Native.Tests\\DRM.Security.Native.Tests.cpp",
+              "RelativeDocumentMoniker": "tests\\DRM.Security.Native.Tests\\DRM.Security.Native.Tests.cpp",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\tests\\DRM.Security.Native.Tests\\DRM.Security.Native.Tests.cpp",
+              "RelativeToolTip": "tests\\DRM.Security.Native.Tests\\DRM.Security.Native.Tests.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T19:01:00.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.SecurePlayer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "src\\Apps.SecurePlayer\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.SecurePlayer\\MainWindow.xaml",
+              "RelativeToolTip": "src\\Apps.SecurePlayer\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T18:58:36.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.SecurePlayer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "src\\Apps.SecurePlayer\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.SecurePlayer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "src\\Apps.SecurePlayer\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:58:36.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\MainWindow.xaml.cs",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:57:30.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.ClientTool\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "src\\Apps.ClientTool\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.ClientTool\\MainWindow.xaml",
+              "RelativeToolTip": "src\\Apps.ClientTool\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T18:55:55.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.ClientTool\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "src\\Apps.ClientTool\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.ClientTool\\MainWindow.xaml.cs",
+              "RelativeToolTip": "src\\Apps.ClientTool\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:55:54.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\DRM.Shared\\Class1.cs",
+              "RelativeDocumentMoniker": "src\\DRM.Shared\\Class1.cs",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\DRM.Shared\\Class1.cs",
+              "RelativeToolTip": "src\\DRM.Shared\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:54:05.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NativeLogger.cpp",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\NativeLogger.cpp",
+              "RelativeDocumentMoniker": "DRM.Security.Native\\NativeLogger.cpp",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\NativeLogger.cpp",
+              "RelativeToolTip": "DRM.Security.Native\\NativeLogger.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T18:49:22.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NativeLogger.h",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\NativeLogger.h",
+              "RelativeDocumentMoniker": "DRM.Security.Native\\NativeLogger.h",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\NativeLogger.h",
+              "RelativeToolTip": "DRM.Security.Native\\NativeLogger.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-19T18:48:50.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CoreResponse.h",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\CoreResponse.h",
+              "RelativeDocumentMoniker": "DRM.Security.Native\\CoreResponse.h",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\CoreResponse.h",
+              "RelativeToolTip": "DRM.Security.Native\\CoreResponse.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-19T18:47:58.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dllmain.cpp",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\dllmain.cpp",
+              "RelativeDocumentMoniker": "DRM.Security.Native\\dllmain.cpp",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\dllmain.cpp",
+              "RelativeToolTip": "DRM.Security.Native\\dllmain.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-19T18:37:40.665Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1114,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Apps.AdminPanel.csproj",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Apps.AdminPanel.csproj",
+              "RelativeDocumentMoniker": "src\\Apps.AdminPanel\\Apps.AdminPanel.csproj",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.AdminPanel\\Apps.AdminPanel.csproj",
+              "RelativeToolTip": "src\\Apps.AdminPanel\\Apps.AdminPanel.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-05T04:01:08.72Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

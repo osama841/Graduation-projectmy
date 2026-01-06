@@ -1,0 +1,138 @@
+﻿<Window x:Class="Apps.AdminPanel.Views.EditUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:components="clr-namespace:Apps.AdminPanel.Components"
+        mc:Ignorable="d"
+        Title="تعديل بيانات المستخدم" Height="500" Width="600"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        Background="Transparent"
+        FlowDirection="RightToLeft"
+        MouseDown="Window_MouseDown">
+
+    <Grid>
+        <!-- طبقة تغتيم خفيفة للخلفية -->
+        <Border Background="#000000" Opacity="0.5" CornerRadius="4" Margin="5"/>
+
+        <!-- الإطار الرئيسي -->
+        <Border Margin="20"
+                BorderBrush="{StaticResource BorderColor}"
+                BorderThickness="1"
+                CornerRadius="4"
+                Background="{StaticResource PanelBackground}">
+
+            <Border.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="5" Opacity="0.3"/>
+            </Border.Effect>
+
+            <Grid Margin="30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- زر الإغلاق -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- العنوان -->
+                    <RowDefinition Height="*"/>
+                    <!-- النموذج -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- الأزرار -->
+                </Grid.RowDefinitions>
+
+                <!-- زر الإغلاق -->
+                <Button Grid.Row="0"
+                        Style="{StaticResource MaterialDesignIconForegroundButton}"
+                        HorizontalAlignment="Left" VerticalAlignment="Top"
+                        Width="30" Height="30"
+                        Foreground="{StaticResource TextSecondary}"
+                        Click="BtnCancel_Click"
+                        Margin="-10,-10,0,0">
+                    <materialDesign:PackIcon Kind="Close"/>
+                </Button>
+
+                <!-- العنوان -->
+                <StackPanel Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,25">
+                    <Border Width="60" Height="60" CornerRadius="30" Background="{StaticResource AppBackground}" Margin="0,0,0,10">
+                        <materialDesign:PackIcon Kind="AccountEditOutline" Width="30" Height="30" Foreground="{StaticResource AccentColor}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="تعديل بيانات المستخدم" 
+                               Foreground="{StaticResource TextPrimary}" 
+                               FontSize="20" FontWeight="SemiBold" 
+                               HorizontalAlignment="Center"/>
+                </StackPanel>
+
+                <!-- نموذج التعديل -->
+                <StackPanel Grid.Row="2" VerticalAlignment="Top">
+
+                    <components:TechTextBox x:Name="TxtEditUsername" 
+                                            Hint="اسم المستخدم" 
+                                            Icon="AccountOutline" 
+                                            Background="{StaticResource ControlBackground}"
+                                            Margin="0,0,0,15"/>
+
+                    <components:TechTextBox x:Name="TxtEditEmail" 
+                                            Hint="البريد الإلكتروني" 
+                                            Icon="EmailOutline" 
+                                            Background="{StaticResource ControlBackground}"
+                                            Margin="0,0,0,15"/>
+
+                    <!-- حالة الحساب (مثال باستخدام ComboBox) -->
+                    <Grid Margin="0,0,0,15">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="حالة الحساب:" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <ComboBox x:Name="CmbStatus" 
+                                  Grid.Column="1"
+                                  Height="40"
+                                  Padding="10,0"
+                                  Foreground="{StaticResource TextPrimary}"
+                                  BorderBrush="{StaticResource BorderColor}"
+                                  Background="{StaticResource ControlBackground}">
+                            <ComboBoxItem Content="نشط (Active)" IsSelected="True"/>
+                            <ComboBoxItem Content="غير نشط (Inactive)"/>
+                            <ComboBoxItem Content="محظور (Banned)"/>
+                        </ComboBox>
+                    </Grid>
+
+                    <!-- مفتاح الجهاز (للقراءة فقط) -->
+                    <components:TechTextBox x:Name="TxtDeviceKey" 
+                                            Hint="مفتاح الجهاز المرتبط" 
+                                            Icon="KeyVariant" 
+                                            IsEnabled="False"
+                                            Background="{StaticResource ControlBackground}"
+                                            Foreground="{StaticResource TextMuted}"/>
+                </StackPanel>
+
+                <!-- الأزرار -->
+                <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                    <components:TechButton Title="حفظ التعديلات" 
+                                           Icon="ContentSaveEdit" 
+                                           Width="180" 
+                                           Height="45"
+                                           Margin="8,0"
+                                           Background="{StaticResource AccentColor}"
+                                           HighlightBrush="White"
+                                           BorderThickness="0"
+                                           Click="BtnUpdate_Click"/>
+
+                    <components:TechButton Title="إلغاء" 
+                                           Icon="Close" 
+                                           Width="120" 
+                                           Height="45"
+                                           Margin="8,0"
+                                           Background="Transparent"
+                                           BorderBrush="{StaticResource BorderColor}"
+                                           BorderThickness="1"
+                                           HighlightBrush="{StaticResource TextSecondary}"
+                                           Click="BtnCancel_Click"/>
+                </StackPanel>
+
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

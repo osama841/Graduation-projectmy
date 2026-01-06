@@ -1,0 +1,266 @@
+﻿<UserControl x:Class="Apps.AdminPanel.Views.SettingsDataView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:components="clr-namespace:Apps.AdminPanel.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="750" d:DesignWidth="900"
+             FlowDirection="RightToLeft">
+
+    <Grid>
+        <!-- العنوان الرئيسي -->
+        <TextBlock Text="إدارة البيانات" 
+                   Foreground="{StaticResource TextPrimary}" 
+                   FontSize="26" FontWeight="SemiBold" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Top"
+                   Margin="0,0,0,20"/>
+
+        <!-- البطاقة الرئيسية -->
+        <Border Margin="20,50,20,20"
+                BorderBrush="{StaticResource BorderColor}"
+                BorderThickness="1"
+                CornerRadius="4"
+                Background="{StaticResource PanelBackground}">
+
+            <Border.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="10" ShadowDepth="2" Opacity="0.15"/>
+            </Border.Effect>
+
+            <Grid Margin="30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- النسخ الاحتياطي -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- التنظيف -->
+                    <RowDefinition Height="*"/>
+                    <!-- التصدير والاستيراد -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- أزرار الحفظ -->
+                </Grid.RowDefinitions>
+
+                <!-- القسم 1: النسخ الاحتياطي -->
+                <Border Grid.Row="0" 
+                        Background="{StaticResource ControlBackground}"
+                        BorderBrush="{StaticResource BorderColor}" 
+                        BorderThickness="1" 
+                        CornerRadius="4" 
+                        Padding="20" 
+                        Margin="0,0,0,15">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+                            <materialDesign:PackIcon Kind="CloudSync" Foreground="{StaticResource AccentColor}" VerticalAlignment="Center"/>
+                            <TextBlock Text="النسخ الاحتياطي والاستعادة" Foreground="{StaticResource TextPrimary}" FontSize="16" FontWeight="SemiBold" Margin="8,0,0,0"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left">
+                            <!-- زر أساسي -->
+                            <components:TechButton Title="إنشاء نسخة احتياطية" 
+                                                   Icon="CloudUpload" 
+                                                   Width="200" 
+                                                   Height="40"
+                                                   Background="{StaticResource AccentColor}"
+                                                   HighlightBrush="White"
+                                                   BorderThickness="0"
+                                                   Margin="10,0,0,0"
+                                                   Click="BtnBackup_Click"/>
+
+                            <!-- زر ثانوي -->
+                            <components:TechButton Title="استعادة نسخة سابقة" 
+                                                   Icon="History" 
+                                                   Width="200" 
+                                                   Height="40"
+                                                   Background="Transparent"
+                                                   BorderBrush="{StaticResource BorderColor}"
+                                                   BorderThickness="1"
+                                                   HighlightBrush="{StaticResource TextPrimary}"
+                                                   Margin="10,0,0,0"
+                                                   Click="BtnRestore_Click"/>
+                        </StackPanel>
+
+                        <TextBlock Grid.Row="2" Text="آخر نسخة احتياطية ناجحة: 2025-11-24 14:30" Foreground="{StaticResource TextSecondary}" FontSize="12" Margin="15,10,0,0"/>
+                    </Grid>
+                </Border>
+
+                <!-- القسم 2: تنظيف البيانات -->
+                <Border Grid.Row="1" 
+                        Background="Transparent"
+                        BorderBrush="{StaticResource BorderColor}" 
+                        BorderThickness="1" 
+                        CornerRadius="4" 
+                        Padding="20" 
+                        Margin="0,0,0,15">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+                            <materialDesign:PackIcon Kind="DeleteSweep" Foreground="{StaticResource ErrorBrush}" VerticalAlignment="Center"/>
+                            <TextBlock Text="تنظيف وصيانة البيانات" Foreground="{StaticResource TextPrimary}" FontSize="16" FontWeight="SemiBold" Margin="8,0,0,0"/>
+                        </StackPanel>
+
+                        <Grid Grid.Row="1" Margin="0,0,0,15">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="250"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="نوع البيانات:" Foreground="{StaticResource TextPrimary}" VerticalAlignment="Center" Margin="0,0,10,0"/>
+
+                            <ComboBox Grid.Column="1" 
+                                      Height="35"
+                                      Padding="10,0"
+                                      Foreground="{StaticResource TextPrimary}"
+                                      BorderBrush="{StaticResource BorderColor}"
+                                      Background="{StaticResource ControlBackground}">
+                                <ComboBoxItem Content="السجلات القديمة (أكثر من 30 يوم)" IsSelected="True"/>
+                                <ComboBoxItem Content="البيانات المؤقتة (Cache)"/>
+                                <ComboBoxItem Content="سلة المحذوفات"/>
+                            </ComboBox>
+
+                            <!-- زر التنظيف بلون تحذيري -->
+                            <components:TechButton Grid.Column="3" 
+                                                   Title="بدء التنظيف" 
+                                                   Icon="DeleteForever" 
+                                                   Width="160" 
+                                                   Height="35" 
+                                                   FontSize="12"
+                                                   Background="Transparent"
+                                                   BorderBrush="{StaticResource ErrorBrush}"
+                                                   BorderThickness="1"
+                                                   HighlightBrush="{StaticResource ErrorBrush}"
+                                                   Click="BtnCleanup_Click"/>
+                        </Grid>
+
+                        <!-- شريط المساحة -->
+                        <Grid Grid.Row="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <ProgressBar Value="40" Maximum="100" Height="8" Foreground="{StaticResource AccentColor}" Background="{StaticResource ControlBackground}" BorderThickness="0"/>
+
+                            <TextBlock Grid.Column="1" Text="مساحة قابلة للتوفير: ~500 MB" Foreground="{StaticResource TextMuted}" FontSize="11" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                        </Grid>
+                    </Grid>
+                </Border>
+
+                <!-- القسم 3: التصدير والاستيراد -->
+                <Border Grid.Row="2" 
+                        Background="Transparent"
+                        BorderBrush="{StaticResource BorderColor}" 
+                        BorderThickness="1" 
+                        CornerRadius="4" 
+                        Padding="20" 
+                        Margin="0,0,0,15">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+                            <materialDesign:PackIcon Kind="SwapVertical" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center"/>
+                            <TextBlock Text="تصدير / استيراد" Foreground="{StaticResource TextPrimary}" FontSize="16" FontWeight="SemiBold" Margin="8,0,0,0"/>
+                        </StackPanel>
+
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="30"/>
+                                <!-- فاصل -->
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <!-- عمود التصدير -->
+                            <StackPanel Grid.Column="0">
+                                <TextBlock Text="تصدير البيانات" Foreground="{StaticResource AccentColor}" FontWeight="Medium" Margin="0,0,0,10"/>
+
+                                <Grid Margin="0,5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="80"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="البيانات:" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center"/>
+                                    <ComboBox Grid.Column="1" Height="35" Foreground="{StaticResource TextPrimary}" BorderBrush="{StaticResource BorderColor}" Background="{StaticResource ControlBackground}">
+                                        <ComboBoxItem Content="قائمة المستخدمين" IsSelected="True"/>
+                                        <ComboBoxItem Content="سجلات النظام"/>
+                                        <ComboBoxItem Content="إعدادات النظام"/>
+                                    </ComboBox>
+                                </Grid>
+
+                                <Grid Margin="0,5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="80"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="الصيغة:" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center"/>
+                                    <ComboBox Grid.Column="1" Height="35" Foreground="{StaticResource TextPrimary}" BorderBrush="{StaticResource BorderColor}" Background="{StaticResource ControlBackground}">
+                                        <ComboBoxItem Content="Excel (.xlsx)" IsSelected="True"/>
+                                        <ComboBoxItem Content="CSV"/>
+                                        <ComboBoxItem Content="JSON"/>
+                                    </ComboBox>
+                                </Grid>
+
+                                <components:TechButton Title="تصدير الملف" Icon="Export" Width="140" Height="35" FontSize="12" Margin="0,15,0,0" HorizontalAlignment="Right" Background="{StaticResource ControlBackground}" Click="BtnExport_Click"/>
+                            </StackPanel>
+
+                            <!-- خط فاصل عمودي -->
+                            <Rectangle Grid.Column="1" Width="1" Fill="{StaticResource BorderColor}" Margin="0,10"/>
+
+                            <!-- عمود الاستيراد -->
+                            <StackPanel Grid.Column="2">
+                                <TextBlock Text="استيراد البيانات" Foreground="{StaticResource AccentColor}" FontWeight="Medium" Margin="0,0,0,10"/>
+
+                                <!-- منطقة السحب -->
+                                <Grid Height="80" Cursor="Hand">
+                                    <Rectangle Stroke="{StaticResource AccentColor}" StrokeThickness="1" StrokeDashArray="4 4" RadiusX="4" RadiusY="4" Fill="{StaticResource AppBackground}" Opacity="0.5"/>
+                                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                                        <materialDesign:PackIcon Kind="FileUploadOutline" Width="24" Height="24" Foreground="{StaticResource AccentColor}" HorizontalAlignment="Center"/>
+                                        <TextBlock Text="اسحب الملف هنا" Foreground="{StaticResource TextSecondary}" FontSize="11" Margin="0,5,0,0"/>
+                                    </StackPanel>
+                                </Grid>
+
+                                <components:TechButton Title="بدء الاستيراد" Icon="Import" Width="140" Height="35" FontSize="12" Margin="0,15,0,0" HorizontalAlignment="Center" Background="{StaticResource ControlBackground}" Click="BtnImport_Click"/>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                </Border>
+
+                <!-- أزرار الحفظ في الأسفل -->
+                <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                    <components:TechButton Title="حفظ التغييرات" 
+                                           Icon="ContentSave" 
+                                           Width="180" 
+                                           Background="{StaticResource AccentColor}"
+                                           HighlightBrush="White"
+                                           BorderThickness="0"
+                                           Margin="10,0"/>
+
+                    <components:TechButton Title="إلغاء" 
+                                           Icon="Close" 
+                                           Width="120" 
+                                           Background="Transparent"
+                                           BorderBrush="{StaticResource BorderColor}"
+                                           BorderThickness="1"
+                                           HighlightBrush="{StaticResource TextSecondary}"
+                                           Margin="10,0"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

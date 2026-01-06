@@ -1,0 +1,166 @@
+﻿<Window x:Class="Apps.AdminPanel.Views.AddUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:components="clr-namespace:Apps.AdminPanel.Components"
+        mc:Ignorable="d"
+        Title="إضافة مستخدم" Height="550" Width="600"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        Background="Transparent"
+        FlowDirection="RightToLeft"
+        MouseDown="Window_MouseDown">
+
+    <Grid>
+        <!-- طبقة تغتيم خفيفة للخلفية (Shadow Overlay) -->
+        <Border Background="#000000" Opacity="0.5" CornerRadius="4" Margin="5"/>
+
+        <!-- الإطار الرئيسي -->
+        <Border Margin="20"
+                BorderBrush="{StaticResource BorderColor}"
+                BorderThickness="1"
+                CornerRadius="4"
+                Background="{StaticResource PanelBackground}">
+
+            <!-- ظل النافذة -->
+            <Border.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="5" Opacity="0.3"/>
+            </Border.Effect>
+
+            <Grid Margin="30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- زر الإغلاق -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- العنوان -->
+                    <RowDefinition Height="*"/>
+                    <!-- النموذج -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- الأزرار -->
+                </Grid.RowDefinitions>
+
+                <!-- زر الإغلاق العلوي -->
+                <Button Grid.Row="0"
+                        Style="{StaticResource MaterialDesignIconForegroundButton}"
+                        HorizontalAlignment="Left" VerticalAlignment="Top"
+                        Width="30" Height="30"
+                        Foreground="{StaticResource TextSecondary}"
+                        Click="BtnCancel_Click"
+                        Margin="-10,-10,0,0">
+                    <materialDesign:PackIcon Kind="Close"/>
+                </Button>
+
+                <!-- العنوان -->
+                <StackPanel Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,30">
+                    <Border Width="70" Height="70" CornerRadius="35" Background="{StaticResource AppBackground}" Margin="0,0,0,15">
+                        <materialDesign:PackIcon Kind="AccountPlusOutline" Width="35" Height="35" Foreground="{StaticResource AccentColor}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="إضافة مستخدم جديد" 
+                               Foreground="{StaticResource TextPrimary}" 
+                               FontSize="22" FontWeight="SemiBold" 
+                               HorizontalAlignment="Center"/>
+                    <TextBlock Text="أدخل بيانات المستخدم لإنشاء حساب جديد" 
+                               Foreground="{StaticResource TextSecondary}" 
+                               FontSize="13" 
+                               HorizontalAlignment="Center" Margin="0,5,0,0"/>
+                </StackPanel>
+
+                <!-- نموذج البيانات -->
+                <StackPanel Grid.Row="2" VerticalAlignment="Top">
+
+                    <!-- الصف الأول: الاسم والبريد -->
+                    <Grid Margin="0,0,0,20">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="15"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <components:TechTextBox x:Name="TxtNewUsername" 
+                                                Grid.Column="0"
+                                                Hint="اسم المستخدم" 
+                                                Icon="AccountOutline"
+                                                Background="{StaticResource ControlBackground}"
+                                                Height="45"/>
+
+                        <components:TechTextBox x:Name="TxtNewEmail" 
+                                                Grid.Column="2"
+                                                Hint="البريد الإلكتروني" 
+                                                Icon="EmailOutline"
+                                                Background="{StaticResource ControlBackground}"
+                                                Height="45"/>
+                    </Grid>
+
+                    <!-- قسم مفتاح الأمان -->
+                    <StackPanel>
+                        <TextBlock Text="مفتاح الأمان (Device Key)" Foreground="{StaticResource TextPrimary}" FontWeight="Medium" Margin="0,0,0,8"/>
+
+                        <Border Background="{StaticResource ControlBackground}" 
+                                BorderBrush="{StaticResource BorderColor}" 
+                                BorderThickness="1" 
+                                CornerRadius="4" 
+                                Padding="5">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBox x:Name="TxtGeneratedKey" 
+                                         Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                                         materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
+                                         BorderThickness="0"
+                                         IsReadOnly="True"
+                                         Text="A1B2-C3D4-E5F6-G7H8"
+                                         Foreground="{StaticResource SuccessBrush}"
+                                         FontFamily="Consolas" FontSize="15" FontWeight="Bold"
+                                         VerticalContentAlignment="Center"
+                                         Padding="10,0"
+                                         Height="40"/>
+
+                                <Button Grid.Column="1"
+                                        Style="{StaticResource MaterialDesignFlatButton}"
+                                        Content="توليد جديد"
+                                        Foreground="{StaticResource AccentColor}"
+                                        Height="30" FontSize="12"
+                                        Margin="5"
+                                        Click="BtnGenerateKey_Click"/>
+                            </Grid>
+                        </Border>
+                        <TextBlock Text="سيتم استخدام هذا المفتاح لربط الجهاز بالحساب." Foreground="{StaticResource TextMuted}" FontSize="11" Margin="2,5,0,0"/>
+                    </StackPanel>
+
+                </StackPanel>
+
+                <!-- أزرار التحكم -->
+                <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,30,0,0">
+
+                    <components:TechButton Title="إنشاء الحساب" 
+                                           Icon="AccountCheck" 
+                                           Width="200" 
+                                           Height="45"
+                                           Margin="10,0"
+                                           Background="{StaticResource AccentColor}"
+                                           HighlightBrush="White"
+                                           BorderThickness="0"
+                                           Click="BtnCreate_Click"/>
+
+                    <components:TechButton Title="إلغاء" 
+                                           Icon="Close" 
+                                           Width="120" 
+                                           Height="45"
+                                           Margin="10,0"
+                                           Background="Transparent"
+                                           BorderBrush="{StaticResource BorderColor}"
+                                           BorderThickness="1"
+                                           HighlightBrush="{StaticResource TextSecondary}"
+                                           Click="BtnCancel_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

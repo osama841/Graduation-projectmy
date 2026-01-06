@@ -1,0 +1,127 @@
+﻿<Window x:Class="Apps.AdminPanel.Components.TechMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:components="clr-namespace:Apps.AdminPanel.Components"
+        mc:Ignorable="d"
+        Title="TechMessageBox"  Width="480"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        Background="Transparent"
+        FlowDirection="RightToLeft">
+
+    <!-- 
+        الإطار الرئيسي:
+        1. تم تغيير الخلفية إلى PanelBackground (رمادي داكن مصمت)
+        2. الحواف 4 بدلاً من 15
+        3. حدود رمادية هادئة BorderColor
+    -->
+    <Border x:Name="MainBorder"
+            Background="{StaticResource PanelBackground}"
+            BorderBrush="{StaticResource BorderColor}"
+            BorderThickness="1"
+            CornerRadius="4"
+            Margin="5">
+
+        <!-- تأثير ظل خفيف حول النافذة لإبرازها -->
+        <Border.Effect>
+            <DropShadowEffect Color="Black" BlurRadius="15" ShadowDepth="5" Opacity="0.4"/>
+        </Border.Effect>
+
+        <Grid Margin="25">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- زر الإغلاق العلوي -->
+                <RowDefinition Height="Auto"/>
+                <!-- الأيقونة -->
+                <RowDefinition Height="Auto"/>
+                <!-- العنوان -->
+                <RowDefinition Height="*"/>
+                <!-- الرسالة -->
+                <RowDefinition Height="Auto"/>
+                <!-- الأزرار -->
+            </Grid.RowDefinitions>
+
+            <!-- زر الإغلاق العلوي (X) -->
+            <Button HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Margin="-10,-10,0,0" 
+                    Width="30" Height="30"
+                    Style="{StaticResource MaterialDesignIconForegroundButton}"
+                    Foreground="{StaticResource TextSecondary}"
+                    Click="BtnCloseHeader_Click"
+                    ToolTip="إغلاق">
+                <materialDesign:PackIcon Kind="WindowClose" Width="20" Height="20"/>
+            </Button>
+
+            <!-- الأيقونة: نستخدم SuccessBrush للعمليات الناجحة -->
+            <materialDesign:PackIcon x:Name="IconMsg" 
+                                   Grid.Row="1"
+                                   Kind="CheckCircle" 
+                                   Width="70" Height="70"
+                                   Foreground="{StaticResource SuccessBrush}"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,10,0,15"/>
+
+            <!-- العنوان: لون النص الأساسي -->
+            <TextBlock x:Name="TxtTitle"
+                       Grid.Row="2"
+                       Text="تم التشفير بنجاح"
+                       Foreground="{StaticResource TextPrimary}"
+                       FontSize="22"
+                       FontWeight="SemiBold"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,10"/>
+
+            <!-- نص الرسالة: لون ثانوي -->
+            <ScrollViewer Grid.Row="3" 
+                          VerticalScrollBarVisibility="Auto" 
+                          HorizontalScrollBarVisibility="Disabled"
+                          MaxHeight="150"
+                          Margin="10,0,10,25">
+
+                <TextBlock x:Name="TxtMessage"
+                           Text="تمت عملية تشفير الملفات وحفظها في المسار المحدد."
+                           Foreground="{StaticResource TextSecondary}"
+                           FontSize="15"
+                           LineHeight="24"
+                           TextWrapping="Wrap"
+                           TextAlignment="Center"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+            </ScrollViewer>
+
+            <!-- منطقة الأزرار -->
+            <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center">
+
+                <!-- الزر الأساسي: خلفية ملونة (Solid) -->
+                <components:TechButton x:Name="BtnPrimary"
+                                       Title="فتح المجلد"
+                                       Icon="FolderOpen"
+                                       Width="160"
+                                       Margin="8,0"
+                                       Background="{StaticResource SuccessBrush}"
+                                       HighlightBrush="White"
+                                       BorderThickness="0"
+                                       Click="BtnPrimary_Click"/>
+
+            
+                <components:TechButton x:Name="BtnSecondary"
+                                       Title="إغلاق"
+                                       Icon="Close"
+                                       Width="120"
+                                       Margin="8,0"
+                                       Background="Transparent"
+                                       BorderBrush="{StaticResource BorderColor}"
+                                       BorderThickness="1"
+                                       HighlightBrush="{StaticResource TextSecondary}"
+                                       Click="BtnSecondary_Click"/>
+            </StackPanel>
+
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Images\Background - Copy.jpg" />
+    <None Remove="Assets\Images\Background.jpg" />
+    <None Remove="Assets\Images\encryption.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <Folder Include="Views\Dashboard\" />
+    <Folder Include="Views\Monitoring\" />
+    <Folder Include="Views\Reports\" />
+    <Folder Include="Views\Settings\" />
+    <Folder Include="Views\Operations\" />
+    <Folder Include="Views\Users\" />
+    <Folder Include="Views\Licensing\" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="MaterialDesignColors" Version="5.3.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DRM.Shared\DRM.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\Background - Copy.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\encryption.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

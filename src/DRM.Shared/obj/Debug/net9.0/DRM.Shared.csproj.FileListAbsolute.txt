@@ -1,0 +1,65 @@
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.deps.json
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.pdb
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.AssemblyInfo.cs
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.sourcelink.json
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\refint\DRM.Shared.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.pdb
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\ref\DRM.Shared.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.deps.json
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.pdb
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.AssemblyInfo.cs
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.sourcelink.json
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\refint\DRM.Shared.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.pdb
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\DRM.Shared\obj\Debug\net9.0\ref\DRM.Shared.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.deps.json
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.pdb
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.csproj.AssemblyReference.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.AssemblyInfoInputs.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.AssemblyInfo.cs
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.csproj.CoreCompileInputs.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.sourcelink.json
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\refint\DRM.Shared.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.pdb
+D:\مشروع التخرج\v1\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\ref\DRM.Shared.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.deps.json
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.pdb
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.csproj.AssemblyReference.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.AssemblyInfoInputs.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.AssemblyInfo.cs
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.sourcelink.json
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\refint\DRM.Shared.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.pdb
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\ref\DRM.Shared.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\refint\DRM.Shared.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.pdb
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.deps.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.pdb
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.csproj.AssemblyReference.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.AssemblyInfoInputs.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.AssemblyInfo.cs
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.sourcelink.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\ref\DRM.Shared.dll

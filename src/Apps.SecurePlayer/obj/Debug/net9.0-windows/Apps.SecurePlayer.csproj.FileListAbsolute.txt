@@ -1,0 +1,166 @@
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.exe
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.deps.json
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.runtimeconfig.json
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.pdb
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\DRM.Shared.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\DRM.Shared.pdb
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_MarkupCompile.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_MarkupCompile.lref
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.g.resources
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.AssemblyInfo.cs
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.sourcelink.json
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.Sec.A54800A7.Up2Date
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\refint\Apps.SecurePlayer.dll
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.pdb
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.genruntimeconfig.cache
+C:\Users\USER\Desktop\مشـــــروع التـــــــخرج\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\ref\Apps.SecurePlayer.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.exe
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.deps.json
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.runtimeconfig.json
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.pdb
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\MaterialDesignColors.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\PdfiumViewer.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\nl\PdfiumViewer.resources.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\DRM.Shared.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\DRM.Shared.pdb
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.ResolveComReference.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Themes\DarkYemenTheme.baml
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_Content.g.cs
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_MarkupCompile.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_MarkupCompile.lref
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\App.baml
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.g.resources
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.AssemblyInfo.cs
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.sourcelink.json
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.Sec.A54800A7.Up2Date
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\refint\Apps.SecurePlayer.dll
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.pdb
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.genruntimeconfig.cache
+C:\Users\USER\Desktop\REC\Projects\SecureGate_DRM_Solution\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\ref\Apps.SecurePlayer.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.exe
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.deps.json
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.runtimeconfig.json
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.pdb
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\MaterialDesignColors.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\MaterialDesignThemes.Wpf.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\PdfiumViewer.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\nl\PdfiumViewer.resources.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\DRM.Shared.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\DRM.Shared.pdb
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.AssemblyReference.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.ResolveComReference.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\MainWindow.baml
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Themes\DarkYemenTheme.baml
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\MainWindow.g.cs
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\App.g.cs
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_Content.g.cs
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_MarkupCompile.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_MarkupCompile.lref
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\App.baml
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.g.resources
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.AssemblyInfoInputs.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.AssemblyInfo.cs
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.CoreCompileInputs.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.sourcelink.json
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.Sec.A54800A7.Up2Date
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\refint\Apps.SecurePlayer.dll
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.pdb
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.genruntimeconfig.cache
+D:\مشروع التخرج\v1\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\ref\Apps.SecurePlayer.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.exe
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.deps.json
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.runtimeconfig.json
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.pdb
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\MaterialDesignColors.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\PdfiumViewer.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\nl\PdfiumViewer.resources.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\DRM.Shared.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\DRM.Shared.pdb
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.AssemblyReference.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.ResolveComReference.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Themes\DarkYemenTheme.baml
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_Content.g.cs
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_MarkupCompile.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_MarkupCompile.lref
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\App.baml
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.g.resources
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.AssemblyInfoInputs.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.AssemblyInfo.cs
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.CoreCompileInputs.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.sourcelink.json
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.Sec.A54800A7.Up2Date
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\refint\Apps.SecurePlayer.dll
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.pdb
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.genruntimeconfig.cache
+C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\ref\Apps.SecurePlayer.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.exe
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.deps.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.runtimeconfig.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Apps.SecurePlayer.pdb
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\MaterialDesignColors.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\PdfiumViewer.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\nl\PdfiumViewer.resources.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\DRM.Shared.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\bin\Debug\net9.0-windows\DRM.Shared.pdb
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.AssemblyReference.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.ResolveComReference.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Themes\DarkYemenTheme.baml
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_Content.g.cs
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_MarkupCompile.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer_MarkupCompile.lref
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\App.baml
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.g.resources
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.AssemblyInfoInputs.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.AssemblyInfo.cs
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.csproj.CoreCompileInputs.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.sourcelink.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.Sec.A54800A7.Up2Date
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\refint\Apps.SecurePlayer.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.pdb
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\Apps.SecurePlayer.genruntimeconfig.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\Apps.SecurePlayer\obj\Debug\net9.0-windows\ref\Apps.SecurePlayer.dll

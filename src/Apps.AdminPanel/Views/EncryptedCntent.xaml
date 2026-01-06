@@ -1,0 +1,620 @@
+﻿<UserControl x:Class="Apps.AdminPanel.Views.EncryptedCntent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:components="clr-namespace:Apps.AdminPanel.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1200"
+             FlowDirection="RightToLeft">
+
+    <UserControl.Resources>
+        <!-- محول لإخفاء العناصر -->
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+
+        <Style TargetType="{x:Type ScrollBar}">
+            <Setter Property="Stylus.IsPressAndHoldEnabled" Value="false"/>
+            <Setter Property="Stylus.IsFlicksEnabled" Value="false"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Margin" Value="0"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ScrollBar}">
+                        <Grid x:Name="Bg" SnapsToDevicePixels="true">
+                            <Track x:Name="PART_Track" IsDirectionReversed="true" IsEnabled="{TemplateBinding IsEnabled}">
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static ScrollBar.LineUpCommand}" Opacity="0" Visibility="Hidden"/>
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Command="{x:Static ScrollBar.LineDownCommand}" Opacity="0" Visibility="Hidden"/>
+                                </Track.IncreaseRepeatButton>
+                                <Track.Thumb>
+                                    <Thumb>
+                                        <Thumb.Template>
+                                            <ControlTemplate TargetType="{x:Type Thumb}">
+                                                <Border x:Name="ThumbBorder" 
+                                                        Background="#44FFFFFF" 
+                                                        CornerRadius="4" 
+                                                        Margin="1"/>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter TargetName="ThumbBorder" Property="Background" Value="{StaticResource AccentColor}"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsDragging" Value="True">
+                                                        <Setter TargetName="ThumbBorder" Property="Background" Value="{StaticResource AccentColor}"/>
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Thumb.Template>
+                                    </Thumb>
+                                </Track.Thumb>
+                            </Track>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="Orientation" Value="Vertical">
+                    <Setter Property="Width" Value="8"/>
+                    <Setter Property="Height" Value="Auto"/>
+                </Trigger>
+
+                <Trigger Property="Orientation" Value="Horizontal">
+                    <Setter Property="Height" Value="10"/>
+                    <Setter Property="Width" Value="Auto"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- ستايل لـ DataGrid -->
+        <Style x:Key="EncryptedContentDataGridStyle" TargetType="DataGrid">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="RowDetailsVisibilityMode" Value="Collapsed"/>
+            <Setter Property="AutoGenerateColumns" Value="False"/>
+            <Setter Property="HeadersVisibility" Value="Column"/>
+            <Setter Property="SelectionMode" Value="Extended"/>
+            <Setter Property="SelectionUnit" Value="FullRow"/>
+            <Setter Property="CanUserAddRows" Value="False"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="GridLinesVisibility" Value="Horizontal"/>
+            <Setter Property="HorizontalGridLinesBrush" Value="#15FFFFFF"/>
+            <Setter Property="RowHeight" Value="40"/>
+            <Setter Property="RowHeaderWidth" Value="0"/>
+
+            <Setter Property="ColumnHeaderStyle">
+                <Setter.Value>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="BorderBrush" Value="{StaticResource BorderColor}"/>
+                        <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                        <Setter Property="Foreground" Value="{StaticResource TextMuted}"/>
+                        <Setter Property="FontWeight" Value="SemiBold"/>
+                        <Setter Property="Height" Value="35"/>
+                        <Setter Property="Padding" Value="10,0"/>
+                    </Style>
+                </Setter.Value>
+            </Setter>
+
+            <Setter Property="RowStyle">
+                <Setter.Value>
+                    <Style TargetType="DataGridRow">
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="SnapsToDevicePixels" Value="True"/>
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#10FFFFFF"/>
+                            </Trigger>
+
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background" Value="#2000E676"/>
+                                <Setter Property="BorderBrush" Value="{StaticResource AccentColor}"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Setter.Value>
+            </Setter>
+
+            <Setter Property="CellStyle">
+                <Setter.Value>
+                    <Style TargetType="DataGridCell">
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="Padding" Value="10,0"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="DataGridCell">
+                                    <Border Background="{TemplateBinding Background}" 
+                                            BorderBrush="{TemplateBinding BorderBrush}" 
+                                            BorderThickness="{TemplateBinding BorderThickness}" 
+                                            Padding="{TemplateBinding Padding}">
+                                        <ContentPresenter VerticalAlignment="Center" />
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Foreground" Value="{StaticResource TextPrimary}"/>
+                                <Setter Property="Background" Value="Transparent"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- قالب لأيقونة الملف في DataGrid -->
+        <DataTemplate x:Key="IconTemplate">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <materialDesign:PackIcon Kind="{Binding Icon}" 
+                                         Width="20" 
+                                         Height="20" 
+                                         Foreground="{StaticResource AccentColor}" 
+                                         VerticalAlignment="Center"
+                                         Margin="0,0,5,0"/>
+                <Border Background="#2000E676" 
+                        CornerRadius="4" 
+                        Padding="4,2"
+                        Visibility="{Binding IsEncrypted, Converter={StaticResource BoolToVis}}"
+                        VerticalAlignment="Center">
+                    <materialDesign:PackIcon Kind="Lock" 
+                                             Width="12" 
+                                             Height="12" 
+                                             Foreground="#00E676"/>
+                </Border>
+            </StackPanel>
+        </DataTemplate>
+
+        <!-- قالب لاسم الملف في DataGrid -->
+        <DataTemplate x:Key="FileNameTemplate">
+            <TextBlock Text="{Binding Name}" 
+                       Foreground="{StaticResource TextPrimary}" 
+                       VerticalAlignment="Center"
+                       TextTrimming="CharacterEllipsis"
+                       Margin="0,0,10,0"/>
+        </DataTemplate>
+
+        <!-- قالب لحجم الملف في DataGrid -->
+        <DataTemplate x:Key="FileSizeTemplate">
+            <TextBlock Text="{Binding Size}" 
+                       Foreground="{StaticResource TextSecondary}" 
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Right"/>
+        </DataTemplate>
+
+        <!-- قالب لتاريخ التعديل في DataGrid -->
+        <DataTemplate x:Key="ModifiedDateTemplate">
+            <TextBlock Text="{Binding ModifiedDate}" 
+                       Foreground="{StaticResource TextMuted}" 
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Right"/>
+        </DataTemplate>
+
+    
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- القسم الأيسر: المحتوى -->
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- الشريط العلوي -->
+            <Grid Grid.Row="0" Margin="0,0,10,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="Safe" 
+                                             Foreground="{StaticResource AccentColor}" 
+                                             Width="24" 
+                                             Height="24" 
+                                             VerticalAlignment="Center"/>
+                    <TextBlock Text="المحتوى المشفر" 
+                               Foreground="{StaticResource TextPrimary}" 
+                               FontSize="18" 
+                               FontWeight="SemiBold" 
+                               VerticalAlignment="Center" 
+                               Margin="8,0,0,0"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2" Orientation="Horizontal">
+                    <components:TechButton Title="إضافة ملفات" 
+                                          Icon="PlusBox" 
+                                          Width="130" 
+                                          Height="36" 
+                                          Background="{StaticResource AccentColor}" 
+                                          HighlightBrush="White" 
+                                          BorderThickness="0" 
+                                          Margin="0,0,10,0" 
+                                          Click="BtnAddFiles_Click"/>
+
+                    <components:TechTextBox x:Name="TxtSearch" 
+                                           Hint="بحث..." 
+                                           Icon="Magnify" 
+                                           TextChanged="TxtSearch_TextChanged" 
+                                           Width="300" 
+                                           Height="40" 
+                                            BorderThickness="1"
+                                           BorderBrush="{StaticResource BorderColor}" 
+                                           Background="{StaticResource ControlBackground}"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- DataGrid لعرض الملفات -->
+            <DataGrid x:Name="FilesDataGrid" Margin="0,20,0,0"
+                     Grid.Row="1"
+                     Style="{StaticResource EncryptedContentDataGridStyle}"
+                     ItemsSource="{Binding Files}"
+                     SelectionChanged="FilesDataGrid_SelectionChanged"
+                     SelectionMode="Extended"
+                     VerticalScrollBarVisibility="Auto"
+                     HorizontalScrollBarVisibility="Auto">
+
+                <DataGrid.Columns>
+                    <!-- عمود الأيقونة -->
+                    <DataGridTemplateColumn Header="النوع" 
+                                           Width="80"
+                                         
+                                           CellTemplate="{StaticResource IconTemplate}"/>
+
+                    <!-- عمود اسم الملف -->
+                    <DataGridTemplateColumn Header="اسم الملف" 
+                                           Width="2*"
+                                         
+                                           CellTemplate="{StaticResource FileNameTemplate}"/>
+
+                 
+                    <!-- عمود الحجم -->
+                    <DataGridTemplateColumn Header="الحجم" 
+                                          
+                                          
+                                           CellTemplate="{StaticResource FileSizeTemplate}"/>
+
+                    <!-- عمود آخر تعديل -->
+                    <DataGridTemplateColumn Header="آخر تعديل" 
+                                          
+                                          
+                                           CellTemplate="{StaticResource ModifiedDateTemplate}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- بنل الإجراءات السفلي (يظهر عند التحديد) -->
+            <Border x:Name="BottomActionPanel" 
+                    Grid.Row="2"
+                    Background="{StaticResource PanelBackground}" 
+                    BorderBrush="{StaticResource AccentColor}" 
+                    BorderThickness="0,2,0,0"
+                    Padding="12" 
+                    Margin="0,10,0,0"
+                    Visibility="Collapsed">
+                <Grid>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <materialDesign:PackIcon Kind="FileDocumentMultiple" 
+                                                 Width="20" 
+                                                 Height="20" 
+                                                 Foreground="{StaticResource AccentColor}"/>
+                        <TextBlock x:Name="TxtSelectionCount" 
+                                   Text="تم تحديد 0 ملف" 
+                                   Foreground="{StaticResource TextPrimary}" 
+                                   FontWeight="Bold" 
+                                   Margin="8,0,0,0" 
+                                   VerticalAlignment="Center"/>
+                        <TextBlock Text=" | " 
+                                   Foreground="{StaticResource BorderColor}" 
+                                   Margin="8,0"/>
+                        <TextBlock x:Name="TxtTotalSize" 
+                                   Text="الحجم الإجمالي: 0 MB" 
+                                   Foreground="{StaticResource TextSecondary}" 
+                                   VerticalAlignment="Center"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button Style="{StaticResource MaterialDesignOutlinedButton}" 
+                                Content="إلغاء التحديد" 
+                                Foreground="{StaticResource TextSecondary}" 
+                                BorderBrush="{StaticResource BorderColor}" 
+                                Margin="0,0,8,0" 
+                                Padding="12,6"
+                                Click="BtnClearSelection_Click"/>
+
+                        <Button Style="{StaticResource MaterialDesignFlatButton}" 
+                                Background="{StaticResource AccentColor}" 
+                                Foreground="White"
+                                Padding="12,6"
+                                Click="BtnProcessFiles_Click">
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="CogPlay" Margin="0,0,6,0"/>
+                                <TextBlock Text="بدء المعالجة"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="0,0,0,20">
+                <StackPanel>
+                    <TextBlock Text="Staging Area for Encryption" FontSize="20" FontWeight="SemiBold" Margin="0,0,0,15"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox materialDesign:HintAssist.Hint="Search" 
+                             Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                             Height="40" Padding="10,0" VerticalContentAlignment="Center"
+                             BorderBrush="#555" Margin="0,0,20,0">
+                        </TextBox>
+
+                        <StackPanel Grid.Column="1" Orientation="Horizontal">
+                            <Button  ToolTip="Import">
+                                <materialDesign:PackIcon Kind="Import" />
+                            </Button>
+                            <ToggleButton Style="{StaticResource MaterialDesignActionToggleButton}" IsChecked="False">
+                                <materialDesign:PackIcon Kind="ViewList" />
+                            </ToggleButton>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+
+       </Grid>
+
+        <!-- القسم الأيمن: لوحة التفاصيل / المعالجة -->
+        <Border Grid.Column="1" 
+                Width="320" 
+                Background="{StaticResource PanelBackground}" 
+                BorderBrush="{StaticResource BorderColor}" 
+                BorderThickness="1,0,0,0">
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- الحالة 1: لا يوجد تحديد -->
+                <StackPanel x:Name="PanelNoSelection" 
+                            Grid.Row="1"
+                            VerticalAlignment="Center" 
+                            HorizontalAlignment="Center">
+                    <materialDesign:PackIcon Kind="CursorDefaultClick" 
+                                             Width="48" 
+                                             Height="48" 
+                                             Foreground="{StaticResource BorderColor}"/>
+                    <TextBlock Text="حدد ملفاً لعرض التفاصيل" 
+                               Foreground="{StaticResource TextMuted}" 
+                               Margin="0,12,0,0"
+                               TextAlignment="Center"/>
+                </StackPanel>
+
+                <!-- الحالة 2: تفاصيل الملف -->
+                <Grid x:Name="PanelDetails" 
+                      Visibility="Collapsed"
+                      Grid.Row="0"
+                      Grid.RowSpan="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="تفاصيل الملف" 
+                               Foreground="{StaticResource TextPrimary}" 
+                               FontWeight="Bold" 
+                               FontSize="16" 
+                               Margin="0,0,0,20"/>
+
+                    <ScrollViewer Grid.Row="1" 
+                                  VerticalScrollBarVisibility="Auto">
+                        <StackPanel DataContext="{Binding SelectedItem, ElementName=FilesDataGrid}">
+                            <Border Background="{StaticResource AppBackground}" 
+                                    CornerRadius="6" 
+                                    Height="120" 
+                                    Margin="0,0,0,12" 
+                                    BorderBrush="{StaticResource BorderColor}" 
+                                    BorderThickness="1">
+                                <StackPanel VerticalAlignment="Center" 
+                                            HorizontalAlignment="Center">
+                                    <materialDesign:PackIcon Kind="{Binding Icon}" 
+                                                             Width="60" 
+                                                             Height="60" 
+                                                             Foreground="{StaticResource TextSecondary}"/>
+                                </StackPanel>
+                            </Border>
+
+                            <TextBlock Text="{Binding Name}" 
+                                       Foreground="{StaticResource TextPrimary}" 
+                                       FontSize="14" 
+                                       FontWeight="SemiBold" 
+                                       TextWrapping="Wrap" 
+                                       Margin="0,0,0,4"/>
+                            <TextBlock Text="ملف مشفر (AES-256)" 
+                                       Foreground="{StaticResource AccentColor}" 
+                                       FontSize="11" 
+                                       Margin="0,0,0,16"/>
+
+                            <Separator Background="{StaticResource BorderColor}" 
+                                       Margin="0,0,0,16"/>
+
+                            <Grid Margin="0,4">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="80"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="الحجم:" 
+                                           Foreground="{StaticResource TextSecondary}"/>
+                                <TextBlock Grid.Column="1" 
+                                           Text="{Binding Size}" 
+                                           Foreground="{StaticResource TextPrimary}"/>
+                            </Grid>
+                            <Grid Margin="0,4">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="80"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="المسار:" 
+                                           Foreground="{StaticResource TextSecondary}"/>
+                                <TextBlock Grid.Column="1" 
+                                           Text="{Binding Path}" 
+                                           TextTrimming="CharacterEllipsis" 
+                                           Foreground="{StaticResource TextPrimary}"/>
+                            </Grid>
+                            <Grid Margin="0,4">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="80"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="التعديل:" 
+                                           Foreground="{StaticResource TextSecondary}"/>
+                                <TextBlock Grid.Column="1" 
+                                           Text="{Binding ModifiedDate}" 
+                                           Foreground="{StaticResource TextPrimary}"/>
+                            </Grid>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+
+                <!-- الحالة 3: حالة العملية -->
+                <Grid x:Name="PanelProcessing" 
+                      Visibility="Collapsed"
+                      Grid.Row="0"
+                      Grid.RowSpan="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel>
+                        <TextBlock Text="حالة العملية" 
+                                   Foreground="{StaticResource TextPrimary}" 
+                                   FontWeight="Bold" 
+                                   FontSize="16" 
+                                   Margin="0,0,0,4"/>
+                        <TextBlock Text="جاري تشفير الملفات المحددة..." 
+                                   Foreground="{StaticResource TextSecondary}" 
+                                   FontSize="11" 
+                                   Margin="0,0,0,16"/>
+                    </StackPanel>
+
+                    <ScrollViewer Grid.Row="1">
+                        <StackPanel>
+                            <!-- الدائرة المتحركة -->
+                            <Grid Height="120" 
+                                  Margin="0,0,0,20">
+                                <materialDesign:PackIcon Kind="Loading" 
+                                                         Width="80" 
+                                                         Height="80" 
+                                                         Foreground="{StaticResource AccentColor}" 
+                                                         HorizontalAlignment="Center" 
+                                                         VerticalAlignment="Center" 
+                                                         RenderTransformOrigin="0.5,0.5">
+                                    <materialDesign:PackIcon.RenderTransform>
+                                        <RotateTransform x:Name="SpinAnimation" Angle="0"/>
+                                    </materialDesign:PackIcon.RenderTransform>
+                                    <materialDesign:PackIcon.Triggers>
+                                        <EventTrigger RoutedEvent="Loaded">
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <DoubleAnimation Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)" 
+                                                                     From="0" 
+                                                                     To="360" 
+                                                                     Duration="0:0:2" 
+                                                                     RepeatBehavior="Forever"/>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </EventTrigger>
+                                    </materialDesign:PackIcon.Triggers>
+                                </materialDesign:PackIcon>
+                                <TextBlock Text="45%" 
+                                           Foreground="{StaticResource TextPrimary}" 
+                                           FontWeight="Bold" 
+                                           FontSize="18" 
+                                           HorizontalAlignment="Center" 
+                                           VerticalAlignment="Center"/>
+                            </Grid>
+
+                            <!-- شريط التقدم -->
+                            <TextBlock Text="التقدم الكلي" 
+                                       Foreground="{StaticResource TextPrimary}" 
+                                       Margin="0,0,0,4"/>
+                            <ProgressBar   x:Name="MyProgressBar"
+                                          Value="45" 
+                                         Height="8" 
+                                         Foreground="{StaticResource AccentColor}" 
+                                         Background="{StaticResource ControlBackground}" 
+                                         BorderThickness="0" 
+                                         Margin="0,0,0,16"/>
+
+                            <!-- الخطوات -->
+                            <StackPanel Margin="0,8">
+                                <StackPanel Orientation="Horizontal" 
+                                            Margin="0,0,0,8">
+                                    <materialDesign:PackIcon Kind="CheckCircle" 
+                                                             Foreground="#00E676" 
+                                                             Margin="0,0,6,0"/>
+                                    <TextBlock Text="تحليل الملفات (3/3)" 
+                                               Foreground="{StaticResource TextPrimary}"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" 
+                                            Margin="0,0,0,8">
+                                    <materialDesign:PackIcon Kind="Run" 
+                                                             Foreground="{StaticResource AccentColor}" 
+                                                             Margin="0,0,6,0"/>
+                                    <TextBlock Text="تطبيق خوارزمية AES-256..." 
+                                               Foreground="{StaticResource TextPrimary}" 
+                                               FontWeight="Bold"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal" 
+                                            Margin="0,0,0,8" 
+                                            Opacity="0.5">
+                                    <materialDesign:PackIcon Kind="CheckboxBlankCircleOutline" 
+                                                             Foreground="{StaticResource TextSecondary}" 
+                                                             Margin="0,0,6,0"/>
+                                    <TextBlock Text="إنشاء المفاتيح" 
+                                               Foreground="{StaticResource TextSecondary}"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </StackPanel>
+                    </ScrollViewer>
+
+                    <Button Grid.Row="2" 
+                            Content="إلغاء العملية" 
+                            Style="{StaticResource MaterialDesignOutlinedButton}" 
+                            Foreground="{StaticResource ErrorBrush}" 
+                            BorderBrush="{StaticResource ErrorBrush}" 
+                            Padding="12,6"
+                            Click="BtnCancelProcess_Click"/>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="Apps.AdminPanel.Components.TechTextBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             x:Name="ThisControl">
+
+    <Grid>
+        <materialDesign:PackIcon Kind="{Binding Icon, ElementName=ThisControl}" 
+                               Width="20" Height="20"
+                               Foreground="{StaticResource TextSecondary}"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Left"
+                               Margin="15,0,0,0"
+                               Panel.ZIndex="1"/>
+
+        <TextBox x:Name="InnerTextBox"
+                 TextChanged="InnerTextBox_TextChanged"
+            Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                 
+                 materialDesign:HintAssist.Hint="{Binding Hint, ElementName=ThisControl}"
+                 Text="{Binding Text, ElementName=ThisControl, UpdateSourceTrigger=PropertyChanged}"
+                 
+                 Background="{StaticResource ControlBackground}"
+                 Foreground="{StaticResource TextPrimary}"
+                 BorderBrush="{StaticResource BorderColor}"
+                 CaretBrush="{StaticResource AccentColor}"
+                 
+                 materialDesign:TextFieldAssist.UnderlineBrush="{StaticResource AccentColor}"
+                 materialDesign:TextFieldAssist.TextFieldCornerRadius="4"
+                 materialDesign:HintAssist.IsFloating="False"
+                 
+                 FontSize="14"
+                 Height="45"
+                 VerticalContentAlignment="Center"
+                 
+                 Padding="45,0,10,0"></TextBox>
+    </Grid>
+</UserControl>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="Apps.AdminPanel.Views.SplashWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:components="clr-namespace:Apps.AdminPanel.Components"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        
+        AllowsTransparency="True"
+        Background="Transparent"
+        Height="450" Width="800"
+        Loaded="Window_Loaded">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Images/encryption.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <Rectangle Fill="Black" Opacity="0.7"/>
+
+        <components:SystemStartupLoader x:Name="MyLoader" Margin="50"/>
+    </Grid>
+</Window>

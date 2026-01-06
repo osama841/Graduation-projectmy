@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.ClientTool\\Apps.ClientTool.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\DRM.Security.Native.vcxproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\DRM.Security.Native.vcxproj",
+        "projectName": "DRM.Security.Native",
+        "projectPath": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\DRM.Security.Native.vcxproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.ClientTool\\Apps.ClientTool.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.ClientTool\\Apps.ClientTool.csproj",
+        "projectName": "Apps.ClientTool",
+        "projectPath": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.ClientTool\\Apps.ClientTool.csproj",
+        "packagesPath": "C:\\Users\\Osama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.ClientTool\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Osama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\DRM.Security.Native.vcxproj": {
+                "projectPath": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\DRM.Security.Native.vcxproj"
+              },
+              "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\DRM.Shared\\DRM.Shared.csproj": {
+                "projectPath": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\DRM.Shared\\DRM.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\DRM.Shared\\DRM.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\DRM.Shared\\DRM.Shared.csproj",
+        "projectName": "DRM.Shared",
+        "projectPath": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\DRM.Shared\\DRM.Shared.csproj",
+        "packagesPath": "C:\\Users\\Osama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\DRM.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Osama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\DRM.Security.Native.vcxproj": {
+                "projectPath": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\DRM.Security.Native.vcxproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

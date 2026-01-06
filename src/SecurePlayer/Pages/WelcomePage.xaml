@@ -1,0 +1,585 @@
+﻿<Page x:Class="SecurePlayer.Pages.WelcomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="#151725">
+
+    <Grid>
+        <!-- Enhanced Animated Background Gradient -->
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#0D0E1A" Offset="0"/>
+                <GradientStop Color="#16182E" Offset="0.3"/>
+                <GradientStop Color="#1A1C32" Offset="0.6"/>
+                <GradientStop Color="#0D0E1A" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <!-- Enhanced Decorative Elements -->
+        <Canvas>
+            <!-- Animated Gradient Circles -->
+            <Ellipse Width="500" Height="500" Canvas.Left="-200" Canvas.Top="-200" Opacity="0.08">
+                <Ellipse.Fill>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#6366F1" Offset="0"/>
+                        <GradientStop Color="#8B5CF6" Offset="0.5"/>
+                        <GradientStop Color="Transparent" Offset="1"/>
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+
+            <Ellipse Width="600" Height="600" Canvas.Right="-250" Canvas.Bottom="-250" Opacity="0.06">
+                <Ellipse.Fill>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#8B5CF6" Offset="0"/>
+                        <GradientStop Color="#6366F1" Offset="0.5"/>
+                        <GradientStop Color="Transparent" Offset="1"/>
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            
+            <Ellipse Width="350" Height="350" Canvas.Left="200" Canvas.Top="100" Opacity="0.04">
+                <Ellipse.Fill>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#6366F1" Offset="0"/>
+                        <GradientStop Color="Transparent" Offset="1"/>
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+        </Canvas>
+
+        <!-- Main Content -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Top Section - Logo & Title -->
+            <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                <!-- Enhanced Animated Shield Logo with Glow -->
+                <Border Width="160" Height="160" 
+                       CornerRadius="80"
+                       Margin="0,0,0,45"
+                       BorderThickness="4">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#1A1C32" Offset="0"/>
+                            <GradientStop Color="#1F2139" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                    <Border.BorderBrush>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#6366F1" Offset="0"/>
+                            <GradientStop Color="#8B5CF6" Offset="0.5"/>
+                            <GradientStop Color="#A78BFA" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.BorderBrush>
+                    <Border.Effect>
+                        <DropShadowEffect Color="#6366F1" BlurRadius="30" ShadowDepth="0" Opacity="0.8"/>
+                    </Border.Effect>
+
+                    <Viewbox Width="70" Height="70">
+                        <Canvas Width="100" Height="100">
+                            <!-- Shield Shape with Gradient -->
+                            <Path Data="M 50,10 L 20,25 L 20,50 Q 20,80 50,95 Q 80,80 80,50 L 80,25 Z">
+                                <Path.Fill>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                        <GradientStop Color="#6B6DCE" Offset="0"/>
+                                        <GradientStop Color="#5E60CE" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Path.Fill>
+                            </Path>
+                            <!-- Lock Icon -->
+                            <Path Data="M 45,40 L 45,35 Q 45,30 50,30 Q 55,30 55,35 L 55,40" 
+                                  Stroke="White" 
+                                  StrokeThickness="3" 
+                                  Fill="Transparent"/>
+                            <Rectangle Width="16" Height="12" Canvas.Left="42" Canvas.Top="40" 
+                                      Fill="White" 
+                                      RadiusX="2" 
+                                      RadiusY="2"/>
+                            <Ellipse Width="4" Height="4" Canvas.Left="48" Canvas.Top="44" Fill="#5E60CE"/>
+                        </Canvas>
+                    </Viewbox>
+                </Border>
+
+                <!-- Enhanced Welcome Text with Advanced Glow -->
+                <TextBlock Text="Welcome to Secure Player" 
+                          FontSize="48" 
+                          FontWeight="Bold" 
+                          Foreground="White" 
+                          HorizontalAlignment="Center"
+                          Margin="0,0,0,18">
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#6366F1" BlurRadius="25" ShadowDepth="0" Opacity="0.8"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+
+                <!-- Enhanced Subtitle -->
+                <TextBlock Text="Your trusted platform for secure media playback" 
+                          FontSize="17" 
+                          Foreground="#A1A8B8" 
+                          HorizontalAlignment="Center"
+                          Margin="0,0,0,55"
+                          FontWeight="Light">
+                    <TextBlock.Effect>
+                        <DropShadowEffect Color="#6366F1" BlurRadius="10" ShadowDepth="0" Opacity="0.3"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+
+                <!-- Feature Cards -->
+                <Grid Width="700" Margin="0,0,0,50">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Enhanced Card 1: Video Player -->
+                    <Border Grid.Column="0" 
+                           CornerRadius="20" 
+                           Padding="30"
+                           Margin="0,0,12,0"
+                           BorderThickness="1.5"
+                           Cursor="Hand">
+                        <Border.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#1A1C32" Offset="0"/>
+                                <GradientStop Color="#1F2139" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+                        <Border.BorderBrush>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#2A2D4A" Offset="0"/>
+                                <GradientStop Color="#3A3D5A" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.BorderBrush>
+                        <Border.RenderTransform>
+                            <ScaleTransform x:Name="Card1Scale" ScaleX="1" ScaleY="1"/>
+                        </Border.RenderTransform>
+                        <Border.Effect>
+                            <DropShadowEffect x:Name="Card1Shadow" Color="#000000" BlurRadius="20" ShadowDepth="0" Opacity="0.3"/>
+                        </Border.Effect>
+                        <StackPanel>
+                            <Border CornerRadius="14" Padding="18" Width="70" Height="70" HorizontalAlignment="Center" Margin="0,0,0,22">
+                                <Border.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                        <GradientStop Color="#1F2139" Offset="0"/>
+                                        <GradientStop Color="#252840" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Border.Background>
+                                <Border.Effect>
+                                    <DropShadowEffect Color="#6366F1" BlurRadius="15" ShadowDepth="0" Opacity="0.4"/>
+                                </Border.Effect>
+                                <TextBlock Text="🎬" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <TextBlock Text="Video Player" 
+                                      FontSize="19" 
+                                      FontWeight="Bold" 
+                                      Foreground="White" 
+                                      HorizontalAlignment="Center"
+                                      Margin="0,0,0,14">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect Color="#6366F1" BlurRadius="8" ShadowDepth="0" Opacity="0.3"/>
+                                </TextBlock.Effect>
+                            </TextBlock>
+                            <TextBlock Text="Watch encrypted videos securely" 
+                                      FontSize="13" 
+                                      Foreground="#A1A8B8" 
+                                      TextWrapping="Wrap"
+                                      TextAlignment="Center"
+                                      LineHeight="22"/>
+                        </StackPanel>
+                        <Border.Triggers>
+                            <EventTrigger RoutedEvent="Border.MouseEnter">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="Card1Shadow"
+                                                      Storyboard.TargetProperty="Color"
+                                                      To="#6366F1" 
+                                                      Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card1Shadow"
+                                                       Storyboard.TargetProperty="BlurRadius"
+                                                       To="25" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card1Shadow"
+                                                       Storyboard.TargetProperty="Opacity"
+                                                       To="0.4" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card1Scale"
+                                                       Storyboard.TargetProperty="ScaleX"
+                                                       To="1.03" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card1Scale"
+                                                       Storyboard.TargetProperty="ScaleY"
+                                                       To="1.03" 
+                                                       Duration="0:0:0.2"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="Border.MouseLeave">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="Card1Shadow"
+                                                      Storyboard.TargetProperty="Color"
+                                                      To="#000000" 
+                                                      Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card1Shadow"
+                                                       Storyboard.TargetProperty="BlurRadius"
+                                                       To="15" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card1Shadow"
+                                                       Storyboard.TargetProperty="Opacity"
+                                                       To="0.2" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card1Scale"
+                                                       Storyboard.TargetProperty="ScaleX"
+                                                       To="1" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card1Scale"
+                                                       Storyboard.TargetProperty="ScaleY"
+                                                       To="1" 
+                                                       Duration="0:0:0.2"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Border.Triggers>
+                        <Border.Style>
+                            <Style TargetType="Border">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background">
+                                            <Setter.Value>
+                                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                                    <GradientStop Color="#1F2139" Offset="0"/>
+                                                    <GradientStop Color="#252840" Offset="1"/>
+                                                </LinearGradientBrush>
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Setter Property="BorderBrush">
+                                            <Setter.Value>
+                                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                                    <GradientStop Color="#6366F1" Offset="0"/>
+                                                    <GradientStop Color="#8B5CF6" Offset="1"/>
+                                                </LinearGradientBrush>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                    </Border>
+
+                    <!-- Enhanced Card 2: PDF Viewer -->
+                    <Border Grid.Column="1" 
+                           CornerRadius="20" 
+                           Padding="30"
+                           Margin="6,0"
+                           BorderThickness="1.5"
+                           Cursor="Hand">
+                        <Border.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#1A1C32" Offset="0"/>
+                                <GradientStop Color="#1F2139" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+                        <Border.BorderBrush>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#2A2D4A" Offset="0"/>
+                                <GradientStop Color="#3A3D5A" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.BorderBrush>
+                        <Border.RenderTransform>
+                            <ScaleTransform x:Name="Card2Scale" ScaleX="1" ScaleY="1"/>
+                        </Border.RenderTransform>
+                        <Border.Effect>
+                            <DropShadowEffect x:Name="Card2Shadow" Color="#000000" BlurRadius="20" ShadowDepth="0" Opacity="0.3"/>
+                        </Border.Effect>
+                        <StackPanel>
+                            <Border CornerRadius="14" Padding="18" Width="70" Height="70" HorizontalAlignment="Center" Margin="0,0,0,22">
+                                <Border.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                        <GradientStop Color="#1F2139" Offset="0"/>
+                                        <GradientStop Color="#252840" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Border.Background>
+                                <Border.Effect>
+                                    <DropShadowEffect Color="#6366F1" BlurRadius="15" ShadowDepth="0" Opacity="0.4"/>
+                                </Border.Effect>
+                                <TextBlock Text="📄" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <TextBlock Text="PDF Viewer" 
+                                      FontSize="19" 
+                                      FontWeight="Bold" 
+                                      Foreground="White" 
+                                      HorizontalAlignment="Center"
+                                      Margin="0,0,0,14">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect Color="#6366F1" BlurRadius="8" ShadowDepth="0" Opacity="0.3"/>
+                                </TextBlock.Effect>
+                            </TextBlock>
+                            <TextBlock Text="Read protected documents safely" 
+                                      FontSize="13" 
+                                      Foreground="#A1A8B8" 
+                                      TextWrapping="Wrap"
+                                      TextAlignment="Center"
+                                      LineHeight="22"/>
+                        </StackPanel>
+                        <Border.Triggers>
+                            <EventTrigger RoutedEvent="Border.MouseEnter">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="Card2Shadow"
+                                                      Storyboard.TargetProperty="Color"
+                                                      To="#6366F1" 
+                                                      Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card2Shadow"
+                                                       Storyboard.TargetProperty="BlurRadius"
+                                                       To="25" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card2Shadow"
+                                                       Storyboard.TargetProperty="Opacity"
+                                                       To="0.4" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card2Scale"
+                                                       Storyboard.TargetProperty="ScaleX"
+                                                       To="1.03" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card2Scale"
+                                                       Storyboard.TargetProperty="ScaleY"
+                                                       To="1.03" 
+                                                       Duration="0:0:0.2"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="Border.MouseLeave">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="Card2Shadow"
+                                                      Storyboard.TargetProperty="Color"
+                                                      To="Black" 
+                                                      Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card2Shadow"
+                                                       Storyboard.TargetProperty="BlurRadius"
+                                                       To="15" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card2Shadow"
+                                                       Storyboard.TargetProperty="Opacity"
+                                                       To="0.2" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card2Scale"
+                                                       Storyboard.TargetProperty="ScaleX"
+                                                       To="1" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card2Scale"
+                                                       Storyboard.TargetProperty="ScaleY"
+                                                       To="1" 
+                                                       Duration="0:0:0.2"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Border.Triggers>
+                        <Border.Style>
+                            <Style TargetType="Border">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background">
+                                            <Setter.Value>
+                                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                                    <GradientStop Color="#1F2139" Offset="0"/>
+                                                    <GradientStop Color="#252840" Offset="1"/>
+                                                </LinearGradientBrush>
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Setter Property="BorderBrush">
+                                            <Setter.Value>
+                                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                                    <GradientStop Color="#6366F1" Offset="0"/>
+                                                    <GradientStop Color="#8B5CF6" Offset="1"/>
+                                                </LinearGradientBrush>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                    </Border>
+
+                    <!-- Enhanced Card 3: Security -->
+                    <Border Grid.Column="2" 
+                           CornerRadius="20" 
+                           Padding="30"
+                           Margin="12,0,0,0"
+                           BorderThickness="1.5"
+                           Cursor="Hand">
+                        <Border.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#1A1C32" Offset="0"/>
+                                <GradientStop Color="#1F2139" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+                        <Border.BorderBrush>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#2A2D4A" Offset="0"/>
+                                <GradientStop Color="#3A3D5A" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.BorderBrush>
+                        <Border.RenderTransform>
+                            <ScaleTransform x:Name="Card3Scale" ScaleX="1" ScaleY="1"/>
+                        </Border.RenderTransform>
+                        <Border.Effect>
+                            <DropShadowEffect x:Name="Card3Shadow" Color="#000000" BlurRadius="20" ShadowDepth="0" Opacity="0.3"/>
+                        </Border.Effect>
+                        <StackPanel>
+                            <Border CornerRadius="14" Padding="18" Width="70" Height="70" HorizontalAlignment="Center" Margin="0,0,0,22">
+                                <Border.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                        <GradientStop Color="#1F2139" Offset="0"/>
+                                        <GradientStop Color="#252840" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Border.Background>
+                                <Border.Effect>
+                                    <DropShadowEffect Color="#6366F1" BlurRadius="15" ShadowDepth="0" Opacity="0.4"/>
+                                </Border.Effect>
+                                <TextBlock Text="🔒" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <TextBlock Text="Secure and Private" 
+                                      FontSize="19" 
+                                      FontWeight="Bold" 
+                                      Foreground="White" 
+                                      HorizontalAlignment="Center"
+                                      Margin="0,0,0,14">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect Color="#6366F1" BlurRadius="8" ShadowDepth="0" Opacity="0.3"/>
+                                </TextBlock.Effect>
+                            </TextBlock>
+                            <TextBlock Text="DRM protection and device binding" 
+                                      FontSize="13" 
+                                      Foreground="#A1A8B8" 
+                                      TextWrapping="Wrap"
+                                      TextAlignment="Center"
+                                      LineHeight="22"/>
+                        </StackPanel>
+                        <Border.Triggers>
+                            <EventTrigger RoutedEvent="Border.MouseEnter">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="Card3Shadow"
+                                                      Storyboard.TargetProperty="Color"
+                                                      To="#6366F1" 
+                                                      Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card3Shadow"
+                                                       Storyboard.TargetProperty="BlurRadius"
+                                                       To="25" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card3Shadow"
+                                                       Storyboard.TargetProperty="Opacity"
+                                                       To="0.4" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card3Scale"
+                                                       Storyboard.TargetProperty="ScaleX"
+                                                       To="1.03" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card3Scale"
+                                                       Storyboard.TargetProperty="ScaleY"
+                                                       To="1.03" 
+                                                       Duration="0:0:0.2"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="Border.MouseLeave">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="Card3Shadow"
+                                                      Storyboard.TargetProperty="Color"
+                                                      To="#000000" 
+                                                      Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card3Shadow"
+                                                       Storyboard.TargetProperty="BlurRadius"
+                                                       To="15" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card3Shadow"
+                                                       Storyboard.TargetProperty="Opacity"
+                                                       To="0.2" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card3Scale"
+                                                       Storyboard.TargetProperty="ScaleX"
+                                                       To="1" 
+                                                       Duration="0:0:0.2"/>
+                                        <DoubleAnimation Storyboard.TargetName="Card3Scale"
+                                                       Storyboard.TargetProperty="ScaleY"
+                                                       To="1" 
+                                                       Duration="0:0:0.2"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Border.Triggers>
+                        <Border.Style>
+                            <Style TargetType="Border">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background">
+                                            <Setter.Value>
+                                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                                    <GradientStop Color="#1F2139" Offset="0"/>
+                                                    <GradientStop Color="#252840" Offset="1"/>
+                                                </LinearGradientBrush>
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Setter Property="BorderBrush">
+                                            <Setter.Value>
+                                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                                    <GradientStop Color="#6366F1" Offset="0"/>
+                                                    <GradientStop Color="#8B5CF6" Offset="1"/>
+                                                </LinearGradientBrush>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                    </Border>
+                </Grid>
+
+                <!-- Enhanced Call to Action -->
+                <Border Background="#1A1C32" CornerRadius="15" Padding="20,15" HorizontalAlignment="Center" Margin="0,0,0,0">
+                    <Border.Effect>
+                        <DropShadowEffect Color="#6366F1" BlurRadius="15" ShadowDepth="0" Opacity="0.2"/>
+                    </Border.Effect>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="👈" FontSize="22" VerticalAlignment="Center" Margin="0,0,12,0"/>
+                        <TextBlock Text="Get started by clicking any option in the sidebar" 
+                                  FontSize="15" 
+                                  Foreground="#A1A8B8" 
+                                  VerticalAlignment="Center"
+                                  FontWeight="Medium"/>
+                    </StackPanel>
+                </Border>
+
+            </StackPanel>
+        </Grid>
+
+        <!-- Enhanced Footer -->
+        <Grid VerticalAlignment="Bottom" Margin="0,0,0,35">
+            <Border Background="#1A1C32" CornerRadius="12" Padding="15,10" HorizontalAlignment="Center" Opacity="0.8">
+                <Border.Effect>
+                    <DropShadowEffect Color="#6366F1" BlurRadius="10" ShadowDepth="0" Opacity="0.15"/>
+                </Border.Effect>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="⚡" FontSize="16" Margin="0,0,10,0" VerticalAlignment="Center">
+                        <TextBlock.Effect>
+                            <DropShadowEffect Color="#6366F1" BlurRadius="8" ShadowDepth="0" Opacity="0.6"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+                    <TextBlock Text="Powered by Advanced DRM Technology" 
+                              FontSize="13" 
+                              Foreground="#A1A8B8" 
+                              VerticalAlignment="Center"
+                              FontWeight="Medium"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

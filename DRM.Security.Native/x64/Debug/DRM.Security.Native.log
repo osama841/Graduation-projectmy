@@ -1,0 +1,18 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (DRM.Security.Native..vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  pch.cpp
+  AES_Core.cpp
+  dllmain.cpp
+  Exports.cpp
+  FingerprintGen.cpp
+  HardwareInfo.cpp
+  NativeLogger.cpp
+  Utils_Exports.cpp
+  Generating Code...
+     Creating library C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\x64\Debug\DRM.Security.Native.lib and object C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\x64\Debug\DRM.Security.Native.exp
+  DRM.Security.Native.vcxproj -> C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\x64\Debug\DRM.Security.Native.dll
+  C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\x64\Debug\DRM.Security.Native.dll
+  1 File(s) copied
+  C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\x64\Debug\DRM.Security.Native.dll
+  1 File(s) copied
+  C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\x64\Debug\DRM.Security.Native.dll
+  1 File(s) copied

@@ -1,0 +1,213 @@
+﻿<UserControl x:Class="Apps.AdminPanel.Views.SettingsSystemView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:components="clr-namespace:Apps.AdminPanel.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="800"
+             FlowDirection="RightToLeft">
+
+    <Grid>
+        <!-- العنوان الرئيسي -->
+        <TextBlock Text="معلومات النظام" 
+                   Foreground="{StaticResource TextPrimary}" 
+                   FontSize="26" FontWeight="SemiBold" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Top"
+                   Margin="0,0,0,20"/>
+
+        <!-- البطاقة الرئيسية -->
+        <Border Margin="20,50,20,20"
+                BorderBrush="{StaticResource BorderColor}"
+                BorderThickness="1"
+                CornerRadius="4"
+                Background="{StaticResource PanelBackground}">
+
+            <Border.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="10" ShadowDepth="2" Opacity="0.15"/>
+            </Border.Effect>
+
+            <Grid Margin="40">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- حول النظام -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- الموارد -->
+                    <RowDefinition Height="*"/>
+                    <!-- السجلات -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- الأزرار -->
+                </Grid.RowDefinitions>
+
+                <!-- القسم 1: حول النظام -->
+                <StackPanel Grid.Row="0" Margin="0,0,0,30">
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,15">
+                        <materialDesign:PackIcon Kind="InformationOutline" Foreground="{StaticResource AccentColor}" VerticalAlignment="Center"/>
+                        <TextBlock Text="حول النظام" Foreground="{StaticResource TextPrimary}" FontSize="16" FontWeight="SemiBold" Margin="8,0,0,0"/>
+                    </StackPanel>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- معلومات الإصدار -->
+                        <components:TechTextBox Grid.Column="0" 
+                                                Text="الإصدار: 2.5.1 (Stable)" 
+                                                Icon="Tag" 
+                                                IsEnabled="False"
+                                                Foreground="{StaticResource TextSecondary}"
+                                                Background="{StaticResource ControlBackground}"/>
+
+                        <!-- معلومات التحديث -->
+                        <components:TechTextBox Grid.Column="2" 
+                                                Text="آخر تحديث: 20-11-2025" 
+                                                Icon="CalendarClock" 
+                                                IsEnabled="False"
+                                                Foreground="{StaticResource TextSecondary}"
+                                                Background="{StaticResource ControlBackground}"/>
+                    </Grid>
+
+                    <components:TechTextBox Text="الرخصة: مسجلة لشركة المستقبل للتقنية" 
+                                            Icon="License" 
+                                            Margin="0,10,0,0" 
+                                            IsEnabled="False"
+                                            Foreground="{StaticResource TextSecondary}"
+                                            Background="{StaticResource ControlBackground}"/>
+                </StackPanel>
+
+                <!-- القسم 2: حالة الموارد -->
+                <Border Grid.Row="1" 
+                        Background="Transparent"
+                        BorderBrush="{StaticResource BorderColor}" 
+                        BorderThickness="0,1,0,1" 
+                        Padding="0,20" 
+                        Margin="0,0,0,30">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                            <materialDesign:PackIcon Kind="ChartBoxOutline" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center"/>
+                            <TextBlock Text="استهلاك الموارد" Foreground="{StaticResource TextPrimary}" FontSize="16" FontWeight="SemiBold" Margin="8,0,0,0"/>
+                        </StackPanel>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="150"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="60"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <!-- CPU -->
+                            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" Margin="0,0,0,15">
+                                <materialDesign:PackIcon Kind="Cpu64Bit" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center"/>
+                                <TextBlock Text="المعالج (CPU)" Foreground="{StaticResource TextPrimary}" Margin="8,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                            <ProgressBar Grid.Row="0" Grid.Column="1" Value="35" Maximum="100" Height="8" 
+                                         Foreground="{StaticResource AccentColor}" Background="{StaticResource ControlBackground}" BorderThickness="0" Margin="0,0,10,15"/>
+                            <TextBlock Grid.Row="0" Grid.Column="2" Text="35%" Foreground="{StaticResource AccentColor}" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,0,15"/>
+
+                            <!-- RAM -->
+                            <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" Margin="0,0,0,15">
+                                <materialDesign:PackIcon Kind="Memory" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center"/>
+                                <TextBlock Text="الذاكرة (RAM)" Foreground="{StaticResource TextPrimary}" Margin="8,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                            <ProgressBar Grid.Row="1" Grid.Column="1" Value="60" Maximum="100" Height="8" 
+                                         Foreground="{StaticResource AccentColor}" Background="{StaticResource ControlBackground}" BorderThickness="0" Margin="0,0,10,15"/>
+                            <TextBlock Grid.Row="1" Grid.Column="2" Text="60%" Foreground="{StaticResource AccentColor}" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,0,15"/>
+
+                            <!-- Storage -->
+                            <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="Harddisk" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center"/>
+                                <TextBlock Text="التخزين (SSD)" Foreground="{StaticResource TextPrimary}" Margin="8,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                            <!-- 
+                                تم التصحيح:
+                                استبدال {StaticResource StatusUrgentRed} بـ #FF5252 
+                            -->
+                            <ProgressBar Grid.Row="2" Grid.Column="1" Value="75" Maximum="100" Height="8" 
+                                         Foreground="#FF5252" Background="{StaticResource ControlBackground}" BorderThickness="0" Margin="0,0,10,0"/>
+                            <TextBlock Grid.Row="2" Grid.Column="2" Text="75%" Foreground="#FF5252" FontWeight="Bold" VerticalAlignment="Center"/>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- القسم 3: سجلات النظام -->
+                <Grid Grid.Row="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Margin="0,0,0,10">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="TextBoxOutline" Foreground="{StaticResource TextSecondary}" VerticalAlignment="Center"/>
+                            <TextBlock Text="آخر الأحداث" Foreground="{StaticResource TextPrimary}" FontSize="16" FontWeight="SemiBold" Margin="8,0,0,0"/>
+                        </StackPanel>
+
+                        <Button Style="{StaticResource MaterialDesignFlatButton}"
+                                Content="عرض الكل"
+                                Foreground="{StaticResource AccentColor}"
+                                HorizontalAlignment="Left"
+                                Height="30" FontSize="12" Padding="10,0"/>
+                    </Grid>
+
+                    <Border Grid.Row="1" 
+                            Background="{StaticResource ControlBackground}" 
+                            CornerRadius="4" 
+                            Padding="15" 
+                            BorderBrush="{StaticResource BorderColor}" 
+                            BorderThickness="1">
+                        <StackPanel>
+                            <TextBlock FontFamily="Consolas" FontSize="12" Margin="0,0,0,8">
+                                <Run Text="[INFO] 20:15" Foreground="{StaticResource TextMuted}"/>
+                                <Run Text=" : تم تسجيل دخول " Foreground="{StaticResource TextSecondary}"/>
+                                <Run Text="'user_admin'" Foreground="{StaticResource SuccessBrush}"/>
+                            </TextBlock>
+
+                            <TextBlock FontFamily="Consolas" FontSize="12" Margin="0,0,0,8">
+                                <Run Text="[WARN] 19:30" Foreground="{StaticResource TextMuted}"/>
+                                <Run Text=" : استخدام الذاكرة تجاوز الحد المسموح " Foreground="{StaticResource TextSecondary}"/>
+                                <Run Text="(60%)" Foreground="#FFB74D"/>
+                            </TextBlock>
+
+                            <TextBlock FontFamily="Consolas" FontSize="12">
+                                <Run Text="[SYS] 18:00" Foreground="{StaticResource TextMuted}"/>
+                                <Run Text=" : تم بدء تشغيل خدمة التشفير بنجاح." Foreground="{StaticResource TextSecondary}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+
+                <!-- القسم 4: الأزرار -->
+                <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+
+                    <components:TechButton Title="تحديث النظام" 
+                                           Icon="Update" 
+                                           Width="160" 
+                                           Margin="10,0"
+                                           Background="{StaticResource AccentColor}"
+                                           HighlightBrush="White"
+                                           BorderThickness="0"/>
+
+                    <components:TechButton Title="تقرير التشخيص" 
+                                           Icon="FileChart" 
+                                           Width="160" 
+                                           Margin="10,0"
+                                           Background="Transparent"
+                                           BorderBrush="{StaticResource BorderColor}"
+                                           BorderThickness="1"
+                                           HighlightBrush="{StaticResource TextSecondary}"/>
+                </StackPanel>
+
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="Apps.AdminPanel.Components.TechButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             x:Name="ThisControl" d:DesignWidth="250" Height="50">
+
+    <Grid>
+        <Button x:Name="InnerButton"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                Background="{Binding Background, ElementName=ThisControl}"
+                BorderBrush="{Binding BorderBrush, ElementName=ThisControl}"
+                BorderThickness="{Binding BorderThickness, ElementName=ThisControl}"
+                Foreground="{Binding Foreground, ElementName=ThisControl}"
+                
+                materialDesign:ButtonAssist.CornerRadius="4"
+                Height="Auto"
+                HorizontalContentAlignment="Left"
+                Padding="15,0"
+                Cursor="Hand"
+                Click="InnerButton_Click">
+
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="{Binding Icon, ElementName=ThisControl}" 
+                                         Width="22" Height="22"
+                                         VerticalAlignment="Center"
+                                         Margin="0,0,15,0"/>
+
+                <TextBlock Text="{Binding Title, ElementName=ThisControl}" 
+                           VerticalAlignment="Center"
+                           FontSize="14"
+                           FontWeight="Medium"/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</UserControl>
