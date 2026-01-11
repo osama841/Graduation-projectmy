@@ -1,9 +1,7 @@
 ﻿#include "pch.h"
 #include <cstring>
 
-// دالة لتحرير الذاكرة التي حجزها C++ للنصوص الراجعة
-extern "C" __declspec(dllexport) void FreeMem(char* ptr) {
-    if (ptr != nullptr) {
-        delete[] ptr;
-    }
-}
+// ملاحظة: دالة FreeMem موجودة في Exports/HardwareID_Exports.cpp
+// لذلك لا نكررها هنا
+
+// يمكن إضافة دوال مساعدة أخرى هنا إذا لزم الأمر

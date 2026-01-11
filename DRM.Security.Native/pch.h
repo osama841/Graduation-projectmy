@@ -9,5 +9,10 @@
 
 // add headers that you want to pre-compile here
 #include "framework.h"
+#include <windows.h>
+#include <bcrypt.h>
+#include <tbs.h>
+#include <string>
+#include <vector>
 
 #endif //PCH_H

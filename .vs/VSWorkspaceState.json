@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DRM.Security.Native",
     "\\Screenshots",
-    "\\SecurePlayer",
-    "\\src\\Apps.SecurePlayer\\Themes",
-    "\\src\\DRM.Shared"
+    "\\src",
+    "\\src\\DRM.Shared",
+    "\\src\\SecurePlayer"
   ],
-  "SelectedNode": "\\SecurePlayer",
+  "SelectedNode": "\\DRM.Security.Native",
   "PreviewInSolutionExplorer": false
 }

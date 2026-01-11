@@ -1,2 +1,3 @@
-2026/01/05-06:31:41.504 719c Creating DB C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\SecurePlayer\bin\Debug\net9.0-windows\SecurePlayer.exe.WebView2\EBWebView\Default\shared_proto_db\metadata since it was missing.
-2026/01/05-06:31:41.513 719c Reusing MANIFEST C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\SecurePlayer\bin\Debug\net9.0-windows\SecurePlayer.exe.WebView2\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2026/01/11-03:38:28.917 d454 Reusing MANIFEST C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\SecurePlayer\bin\Debug\net9.0-windows\SecurePlayer.exe.WebView2\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2026/01/11-03:38:28.918 d454 Recovering log #3
+2026/01/11-03:38:28.919 d454 Reusing old log C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\SecurePlayer\bin\Debug\net9.0-windows\SecurePlayer.exe.WebView2\EBWebView\Default\shared_proto_db\metadata/000003.log 

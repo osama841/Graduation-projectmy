@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DRM.Application.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31f145fac861dd360b69cf975ff4ce7d35a7559b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b5db326e22b69e056baebaf409738eb26f93b54")]
 [assembly: System.Reflection.AssemblyProductAttribute("DRM.Application.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DRM.Application.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

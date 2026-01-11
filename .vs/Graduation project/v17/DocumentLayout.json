@@ -49,10 +49,8 @@
               "RelativeDocumentMoniker": "src\\Apps.SecurePlayer\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.SecurePlayer\\MainWindow.xaml.cs",
               "RelativeToolTip": "src\\Apps.SecurePlayer\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T14:06:51.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T14:06:51.613Z"
             },
             {
               "$type": "Document",
@@ -62,7 +60,6 @@
               "RelativeDocumentMoniker": "src\\Apps.SecurePlayer\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.SecurePlayer\\MainWindow.xaml",
               "RelativeToolTip": "src\\Apps.SecurePlayer\\MainWindow.xaml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-11T14:06:23.958Z"
             },
@@ -74,9 +71,12 @@
               "RelativeDocumentMoniker": "src\\Apps.SecurePlayer\\Themes\\DarkYemenTheme.xaml",
               "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\src\\Apps.SecurePlayer\\Themes\\DarkYemenTheme.xaml",
               "RelativeToolTip": "src\\Apps.SecurePlayer\\Themes\\DarkYemenTheme.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-11T13:59:20.552Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         },

@@ -50,9 +50,6 @@ C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\n
 C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\refint\DRM.Shared.dll
 C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.pdb
 C:\Users\Mohammed\Desktop\REC\Projects\SecureGate_DRM\src\DRM.Shared\obj\Debug\net9.0\ref\DRM.Shared.dll
-C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.dll
-C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\refint\DRM.Shared.dll
-C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.pdb
 C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.deps.json
 C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.dll
 C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\bin\Debug\net9.0\DRM.Shared.pdb
@@ -62,4 +59,7 @@ C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\ob
 C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.AssemblyInfo.cs
 C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.csproj.CoreCompileInputs.cache
 C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.sourcelink.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\refint\DRM.Shared.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\DRM.Shared.pdb
 C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\src\DRM.Shared\obj\Debug\net9.0\ref\DRM.Shared.dll
