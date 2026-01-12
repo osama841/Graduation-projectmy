@@ -1,11 +1,14 @@
 ﻿using System;
-using System.IO;
 using System.Runtime.InteropServices;
+
 namespace DRM.Shared.Security
 {
     public class SecureVideoEngine : IDisposable
     {
-        // --- ربط دوال الـ DLL ---
+        // ═══════════════════════════════════════════════════════
+        // القسم 1: الدوال القديمة (AES عادي - للترخيص فقط)
+        // ═══════════════════════════════════════════════════════
+        
         [DllImport("DRM.Security.Native.dll", CallingConvention = CallingConvention.Cdecl)]
         private static extern void GenerateRandomData(byte[] buffer, int size);
 
@@ -18,13 +21,27 @@ namespace DRM.Shared.Security
         [DllImport("DRM.Security.Native.dll", CallingConvention = CallingConvention.Cdecl)]
         private static extern void DestroyAESContext(IntPtr ctx);
 
-        // --- متغيرات الكلاس ---
-        private IntPtr _aesContext = IntPtr.Zero; // هذا هو "الكارت" الذي أعطانا إياه C++
+        // ═══════════════════════════════════════════════════════
+        // القسم 2: الدوال الجديدة (WhiteBox - للفيديو)
+        // ═══════════════════════════════════════════════════════
+        
+        [DllImport("DRM.Security.Native.dll", CallingConvention = CallingConvention.Cdecl)]
+        private static extern void WB_Encrypt_Video(byte[] data, int dataLength, byte[] output);
+
+        [DllImport("DRM.Security.Native.dll", CallingConvention = CallingConvention.Cdecl)]
+        private static extern void WB_Decrypt_Video(byte[] data, int dataLength, byte[] output);
+
+        // ═════════════════════════════════════════════════════
+        // المتغيرات
+        // ═══════════════════════════════════════════════════════
+        
+        private IntPtr _aesContext = IntPtr.Zero;
         private byte[] _currentIv;
 
-        // --- دوال مساعدة عامة ---
-
-        // دالة لتوليد مفتاح أو IV عشوائي آمن
+        // ═══════════════════════════════════════════════════════
+        // دوال مساعدة عامة
+        // ═══════════════════════════════════════════════════════
+        
         public static byte[] GenerateRandomBytes(int size)
         {
             byte[] data = new byte[size];
@@ -32,39 +49,65 @@ namespace DRM.Shared.Security
             return data;
         }
 
-        // Instance wrapper for compatibility
         public byte[] GenerateRandomData(int size)
         {
             return GenerateRandomBytes(size);
         }
 
-        // --- دورة حياة تشغيل الفيديو ---
-
-        // 1. التهيئة (عند فتح الملف)
+        // ═══════════════════════════════════════════════════════
+        // دوال التشفير القديمة (للترخيص - نبقيها)
+        // ═══════════════════════════════════════════════════════
+        
         public void Initialize(byte[] key, byte[] iv)
         {
-            if (_aesContext != IntPtr.Zero) Dispose(); // تنظيف القديم إن وجد
+            if (_aesContext != IntPtr.Zero) Dispose();
 
             _currentIv = iv;
-            // نطلب من C++ تجهيز التشفير ونحتفظ بالكارت
             _aesContext = CreateAESContext(key);
 
             if (_aesContext == IntPtr.Zero)
                 throw new Exception("Failed to initialize AES engine.");
         }
 
-        // 2. المعالجة (تستدعى آلاف المرات)
         public void ProcessChunk(byte[] buffer, int length, long fileOffset)
         {
-            if (_aesContext == IntPtr.Zero) throw new InvalidOperationException("Engine not initialized.");
+            if (_aesContext == IntPtr.Zero) 
+                throw new InvalidOperationException("Engine not initialized.");
 
-            // نمرر الكارت (_aesContext) ليعرف C++ أي مفتاح يستخدم
             bool success = ProcessFrame(_aesContext, buffer, length, _currentIv, fileOffset);
 
-            if (!success) throw new Exception("Encryption/Decryption failed inside C++.");
+            if (!success) 
+                throw new Exception("Encryption/Decryption failed inside C++.");
         }
 
-        // 3. التنظيف (عند إغلاق الصفحة أو الفيديو)
+        // ═══════════════════════════════════════════════════════
+        // دوال WhiteBox الجديدة (للفيديو)
+        // ═══════════════════════════════════════════════════════
+        
+        /// <summary>
+        /// تشفير بيانات باستخدام WhiteBox (بدون مفتاح!)
+        /// </summary>
+        public static byte[] EncryptWithWhiteBox(byte[] data)
+        {
+            byte[] output = new byte[data.Length];
+            WB_Encrypt_Video(data, data.Length, output);
+            return output;
+        }
+
+        /// <summary>
+        /// فك تشفير بيانات باستخدام WhiteBox (بدون مفتاح!)
+        /// </summary>
+        public static byte[] DecryptWithWhiteBox(byte[] data)
+        {
+            byte[] output = new byte[data.Length];
+            WB_Decrypt_Video(data, data.Length, output);
+            return output;
+        }
+
+        // ═══════════════════════════════════════════════════════
+        // التنظيف
+        // ═══════════════════════════════════════════════════════
+        
         public void Dispose()
         {
             if (_aesContext != IntPtr.Zero)

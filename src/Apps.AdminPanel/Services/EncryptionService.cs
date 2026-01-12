@@ -2,79 +2,95 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.IO;
-using Apps.AdminPanel.Models; // استدعاء المودل
+using Apps.AdminPanel.Models;
 
 namespace Apps.AdminPanel.Services
 {
-    // 1. تعريف واجهة (Interface) لضمان سهولة الاختبار والتطوير مستقبلاً
+    // الواجهة: تحدد العقد بين الخدمة والـ UI
     public interface IEncryptionService
     {
         Task EncryptSingleFileAsync(DrmFile file, IProgress<int> progress);
         Task EncryptBatchFilesAsync(List<DrmFile> files, IProgress<int> progress);
     }
 
-    // 2. تنفيذ الخدمة (هنا تضع كود التشفير الحقيقي لاحقاً)
+    // تنفيذ الخدمة: تقوم بالتشفير الفعلي
     public class EncryptionService : IEncryptionService
     {
+        /// <summary>
+        /// تشفير ملف واحد باستخدام WhiteBox Cryptography
+        /// ميزة WhiteBox: لا يوجد مفتاح ظاهر في الذاكرة أو الملفات
+        /// </summary>
+        /// <param name="file">الملف المراد تشفيره</param>
+        /// <param name="progress">كائن لتتبع نسبة الإنجاز (0-100%)</param>
         public async Task EncryptSingleFileAsync(DrmFile file, IProgress<int> progress)
         {
-            if (!File.Exists(file.Path)) throw new FileNotFoundException("File not found", file.Path);
+            // 1. التحقق من وجود الملف قبل البدء
+            if (!File.Exists(file.Path)) 
+                throw new FileNotFoundException("الملف غير موجود", file.Path);
 
+            // 2. تحديد مسار الملف المشفر (نضيف .enc في النهاية)
             string outputFilePath = file.Path + ".enc";
-            string keyFilePath = file.Path + ".key";
 
+            // 3. تنفيذ التشفير في خيط منفصل (async) لعدم تجميد الـ UI
             await Task.Run(() =>
             {
-                using (var engine = new DRM.Shared.Security.SecureVideoEngine())
+                // 4. قراءة الملف بالكامل إلى الذاكرة
+                // ملاحظة: للملفات الكبيرة جداً، يُفضّل القراءة chunk by chunk
+                byte[] fileData = File.ReadAllBytes(file.Path);
+                
+                long totalBytes = fileData.Length;
+                
+                // 5. حجم الـ block للتشفير (WhiteBox AES يعمل على 16 bytes)
+                int chunkSize = 16;
+                
+                // 6. فتح ملف الإخراج للكتابة
+                using (var fsOutput = new FileStream(outputFilePath, FileMode.Create, FileAccess.Write))
                 {
-                    // 1. Generate Key (32 bytes) & IV (16 bytes) using Native Engine
-                    byte[] key = engine.GenerateRandomData(32);
-                    byte[] iv = engine.GenerateRandomData(16);
-
-                    // 2. Initialize Engine
-                    engine.Initialize(key, iv);
-
-                    // 3. Save Key/IV to sidecar file (Temporary for verification)
-                    // We save as Base64 strings to easily read them in SecurePlayer
-                    string keyData = $"{Convert.ToBase64String(key)}|{Convert.ToBase64String(iv)}";
-                    File.WriteAllText(keyFilePath, keyData);
-
-                    // 4. Encrypt File
-                    using (var fsInput = new FileStream(file.Path, FileMode.Open, FileAccess.Read))
-                    using (var fsOutput = new FileStream(outputFilePath, FileMode.Create, FileAccess.Write))
+                    // 7. حلقة: نقسم الملف إلى chunks ونشفر كل واحد
+                    for (int i = 0; i < fileData.Length; i += chunkSize)
                     {
-                        long totalBytes = fsInput.Length;
-                        long processedBytes = 0;
-                        byte[] buffer = new byte[1024 * 1024]; // 1MB chunks
-                        int bytesRead;
-
-                        while ((bytesRead = fsInput.Read(buffer, 0, buffer.Length)) > 0)
-                        {
-                            // Important: Use correct file offset for simulated random access (though for encryption linear is fine)
-                            // Ideally offset should be the position in the file.
-                            long fileOffset = fsInput.Position - bytesRead;
-                            
-                            // Process in-place (encrypts buffer)
-                            engine.ProcessChunk(buffer, bytesRead, fileOffset);
-
-                            fsOutput.Write(buffer, 0, bytesRead);
-
-                            processedBytes += bytesRead;
-                            int percent = (int)((double)processedBytes / totalBytes * 100);
-                            progress?.Report(percent);
-                        }
+                        // 8. حساب حجم الـ chunk الحالي
+                        // (آخر chunk قد يكون أقل من 16 bytes)
+                        int currentChunkSize = Math.Min(chunkSize, fileData.Length - i);
+                        
+                        // 9. نسخ الـ chunk من الملف الأصلي
+                        byte[] chunk = new byte[currentChunkSize];
+                        Array.Copy(fileData, i, chunk, 0, currentChunkSize);
+                        
+                        // ⭐ 10. التشفير باستخدام WhiteBox
+                        // ملاحظة: لا نحتاج مفتاح! المفتاح مدفون في الجداول
+                        byte[] encryptedChunk = DRM.Shared.Security.SecureVideoEngine.EncryptWithWhiteBox(chunk);
+                        
+                        // 11. كتابة الـ chunk المشفر إلى الملف
+                        fsOutput.Write(encryptedChunk, 0, encryptedChunk.Length);
+                        
+                        // 12. حساب نسبة الإنجاز وإرسالها للـ UI
+                        int percent = (int)(((double)(i + currentChunkSize) / totalBytes) * 100);
+                        progress?.Report(percent);
                     }
                 }
+                
+                // ✅ التشفير اكتمل!
+                // لا يوجد ملف .key (المفتاح مخفي في الجداول)
             });
         }
 
+        /// <summary>
+        /// تشفير مجموعة من الملفات (Batch Processing)
+        /// </summary>
+        /// <param name="files">قائمة الملفات المراد تشفيرها</param>
+        /// <param name="progress">نسبة إنجاز المجموعة الكاملة</param>
         public async Task EncryptBatchFilesAsync(List<DrmFile> files, IProgress<int> progress)
         {
             int total = files.Count;
+            
+            // حلقة: نشفر كل ملف على حدة
             for (int i = 0; i < total; i++)
             {
-                await EncryptSingleFileAsync(files[i], null); // Pass null progress for individual file
+                // تشفير الملف (progress = null لأننا نتتبع الإجمالي فقط)
+                await EncryptSingleFileAsync(files[i], null);
                 
+                // حساب نسبة الإنجاز للمجموعة
                 int percent = (int)(((double)(i + 1) / total) * 100);
                 progress?.Report(percent);
             }

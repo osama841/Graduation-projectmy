@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native.vcxproj|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Exports\\WhiteBox_Exports.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native.vcxproj|solutionrelative:Exports\\WhiteBox_Exports.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native.vcxproj|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Exports.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native.vcxproj|solutionrelative:Exports.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Modules\\HardwareID\\WhiteBox\\WB_Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Modules\\HardwareID\\WhiteBox\\WB_Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native.vcxproj|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\AES_Core.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native.vcxproj|solutionrelative:AES_Core.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native.vcxproj|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\AES_Core.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native.vcxproj|solutionrelative:AES_Core.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native.vcxproj|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\SecureGateBridge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{54725E23-4F76-48E5-AA5D-57AA400697B6}|DRM.Security.Native.vcxproj|solutionrelative:SecureGateBridge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Modules\\HardwareID\\WhiteBox\\WB_Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Modules\\HardwareID\\WhiteBox\\WB_Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Modules\\Crypto\\AES_Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Modules\\Crypto\\AES_Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Modules\\Crypto\\AES_Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Modules\\Crypto\\AES_Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +46,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 674,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WhiteBox_Exports.cpp",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Exports\\WhiteBox_Exports.cpp",
+              "RelativeDocumentMoniker": "Exports\\WhiteBox_Exports.cpp",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Exports\\WhiteBox_Exports.cpp",
+              "RelativeToolTip": "Exports\\WhiteBox_Exports.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-11T20:59:26.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WB_Engine.cpp",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Modules\\HardwareID\\WhiteBox\\WB_Engine.cpp",
+              "RelativeDocumentMoniker": "Modules\\HardwareID\\WhiteBox\\WB_Engine.cpp",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Modules\\HardwareID\\WhiteBox\\WB_Engine.cpp",
+              "RelativeToolTip": "Modules\\HardwareID\\WhiteBox\\WB_Engine.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-11T18:08:34.167Z"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -24,24 +81,96 @@
         },
         {
           "DockedWidth": 636,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "WB_Engine.h",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Modules\\HardwareID\\WhiteBox\\WB_Engine.h",
+              "RelativeDocumentMoniker": "Modules\\HardwareID\\WhiteBox\\WB_Engine.h",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Modules\\HardwareID\\WhiteBox\\WB_Engine.h",
+              "RelativeToolTip": "Modules\\HardwareID\\WhiteBox\\WB_Engine.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-11T18:10:49.648Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AES_Engine.h",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Modules\\Crypto\\AES_Engine.h",
+              "RelativeDocumentMoniker": "Modules\\Crypto\\AES_Engine.h",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Modules\\Crypto\\AES_Engine.h",
+              "RelativeToolTip": "Modules\\Crypto\\AES_Engine.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-11T17:38:29.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Exports.cpp",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Exports.cpp",
+              "RelativeDocumentMoniker": "Exports.cpp",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Exports.cpp",
+              "RelativeToolTip": "Exports.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-11T17:40:49.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AES_Engine.cpp",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Modules\\Crypto\\AES_Engine.cpp",
+              "RelativeDocumentMoniker": "Modules\\Crypto\\AES_Engine.cpp",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\Modules\\Crypto\\AES_Engine.cpp",
+              "RelativeToolTip": "Modules\\Crypto\\AES_Engine.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-11T17:38:38.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AES_Core.h",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\AES_Core.h",
+              "RelativeDocumentMoniker": "AES_Core.h",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\AES_Core.h",
+              "RelativeToolTip": "AES_Core.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-11T16:29:11.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AES_Core.cpp",
+              "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\AES_Core.cpp",
+              "RelativeDocumentMoniker": "AES_Core.cpp",
+              "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\AES_Core.cpp",
+              "RelativeToolTip": "AES_Core.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-11T17:52:46.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SecureGateBridge.cpp",
               "DocumentMoniker": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\SecureGateBridge.cpp",
               "RelativeDocumentMoniker": "SecureGateBridge.cpp",
               "ToolTip": "C:\\Users\\Osama\\Desktop\\Graduation projectmy\\Graduation project\\DRM.Security.Native\\SecureGateBridge.cpp",
               "RelativeToolTip": "SecureGateBridge.cpp",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-10T20:46:56.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2026-01-10T20:46:56.441Z"
             }
           ]
         }

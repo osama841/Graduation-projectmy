@@ -111,12 +111,15 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)Modules\WhiteBox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
       <AdditionalDependencies>bcrypt.lib;tbs.lib;iphlpapi.lib;wbemuuid.lib;setupapi.lib;dxgi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
     </Link>
     <PreBuildEvent>
       <Command>
@@ -153,6 +156,8 @@ if exist "$(ProjectDir)..\src\SecurePlayer\bin\Debug\net9.0-windows\" xcopy /y /
     <ClInclude Include="framework.h" />
     <ClInclude Include="Exports\HardwareID_Exports.h" />
     <ClInclude Include="HardwareInfo.h" />
+    <ClInclude Include="Modules\WhiteBox\Tables.h" />
+    <ClInclude Include="Modules\WhiteBox\WB_Engine.h" />
     <ClInclude Include="NativeLogger.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="SecurityManager.h" />
@@ -164,6 +169,9 @@ if exist "$(ProjectDir)..\src\SecurePlayer\bin\Debug\net9.0-windows\" xcopy /y /
     <ClCompile Include="DeviceFingerprintExtractor.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="Exports.cpp" />
+    <ClCompile Include="Exports\WhiteBox_Exports.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="Exports\HardwareID_Exports.cpp">
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>

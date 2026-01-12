@@ -1,0 +1,15 @@
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\bin\Debug\net9.0\TestWhiteBox.exe
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\bin\Debug\net9.0\TestWhiteBox.deps.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\bin\Debug\net9.0\TestWhiteBox.runtimeconfig.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\bin\Debug\net9.0\TestWhiteBox.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\bin\Debug\net9.0\TestWhiteBox.pdb
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\obj\Debug\net9.0\TestWhiteBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\obj\Debug\net9.0\TestWhiteBox.AssemblyInfoInputs.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\obj\Debug\net9.0\TestWhiteBox.AssemblyInfo.cs
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\obj\Debug\net9.0\TestWhiteBox.csproj.CoreCompileInputs.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\obj\Debug\net9.0\TestWhiteBox.sourcelink.json
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\obj\Debug\net9.0\TestWhiteBox.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\obj\Debug\net9.0\refint\TestWhiteBox.dll
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\obj\Debug\net9.0\TestWhiteBox.pdb
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\obj\Debug\net9.0\TestWhiteBox.genruntimeconfig.cache
+C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\TestWhiteBox\obj\Debug\net9.0\ref\TestWhiteBox.dll

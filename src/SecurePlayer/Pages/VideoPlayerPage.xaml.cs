@@ -26,7 +26,6 @@ namespace SecurePlayer.Pages
         private async void OpenFile_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            // Add .enc to filter
             openFileDialog.Filter = "Encrypted Videos|*.enc|Video Files|*.mp4;*.avi;*.mkv;*.mov;*.wmv|All Files|*.*";
             openFileDialog.Title = "Select a Video File";
 
@@ -37,48 +36,15 @@ namespace SecurePlayer.Pages
                     string selectedFile = openFileDialog.FileName;
                     string fileToPlay = selectedFile;
 
-                    // Check if it's an encrypted file
+                    // التحقق إذا كان الملف مشفر
                     if (System.IO.Path.GetExtension(selectedFile).ToLower() == ".enc")
                     {
-                        string keyFile = selectedFile.Replace(".enc", ".key");
-                        if (!System.IO.File.Exists(keyFile))
-                        {
-                            MessageBox.Show("Key file (.key) not found! Cannot decrypt.", "Security Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                            return;
-                        }
-
-                        // Read Key and IV
-                        string keyData = System.IO.File.ReadAllText(keyFile);
-                        var parts = keyData.Split('|');
-                        if (parts.Length != 2)
-                        {
-                            MessageBox.Show("Invalid key file format.", "Security Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                            return;
-                        }
-
-                        byte[] key = Convert.FromBase64String(parts[0]);
-                        byte[] iv = Convert.FromBase64String(parts[1]);
-
-                        // Decrypt to a temp file
+                        // ✅ فك التشفير باستخدام WhiteBox (بدون مفتاح!)
                         string tempFile = System.IO.Path.Combine(System.IO.Path.GetTempPath(), "secure_player_decrypted.mp4");
                         
-                        // Use DecryptionService
-                        var decryptionService = new Services.DecryptionService();
-                        
-                        // Warning: DecryptFile loads entire file into memory. Ensure file is small for testing!
-                        // For larger files, we need stream-based decryption which DecryptionService needs to support via streams.
-                        // Assuming DecryptionService.DecryptFile returns byte[] for now based on earlier view.
-                        // Wait, let's verify DecryptionService signature quickly.
-                        // It has DecryptFile(string inputPath, string outputPath, byte[] key, byte[] iv) ? 
-                        // I recall it had DecryptFile but let's assume I need to implement the loop here or check the service again.
-                        // Actually, I should probably check DecryptionService again to be sure. 
-                        // BUT, to save turns, I'll assume I can use it or implement the logic here if needed.
-                        // Let's rely on the previous implementation:
-                        // "DecryptFile method... for decrypting entire files"
-                        
-                        await Task.Run(() => 
+                        await System.Threading.Tasks.Task.Run(() => 
                         {
-                            decryptionService.DecryptFile(selectedFile, tempFile, key, iv);
+                            DecryptWithWhiteBox(selectedFile, tempFile);
                         });
 
                         fileToPlay = tempFile;
@@ -94,6 +60,28 @@ namespace SecurePlayer.Pages
                 catch (Exception ex)
                 {
                     MessageBox.Show($"Error loading video: {ex.Message}\n{ex.StackTrace}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+        }
+
+        // ✅ دالة فك التشفير باستخدام WhiteBox
+        private void DecryptWithWhiteBox(string encryptedPath, string outputPath)
+        {
+            byte[] encryptedData = System.IO.File.ReadAllBytes(encryptedPath);
+            int chunkSize = 16;
+            
+            using (var fsOutput = new System.IO.FileStream(outputPath, System.IO.FileMode.Create))
+            {
+                for (int i = 0; i < encryptedData.Length; i += chunkSize)
+                {
+                    int currentChunkSize = Math.Min(chunkSize, encryptedData.Length - i);
+                    
+                    byte[] encryptedChunk = new byte[currentChunkSize];
+                    Array.Copy(encryptedData, i, encryptedChunk, 0, currentChunkSize);
+                    
+                    byte[] decryptedChunk = DRM.Shared.Security.SecureVideoEngine.DecryptWithWhiteBox(encryptedChunk);
+                    
+                    fsOutput.Write(decryptedChunk, 0, decryptedChunk.Length);
                 }
             }
         }
@@ -120,7 +108,7 @@ namespace SecurePlayer.Pages
             }
         }
 
-        private void Timer_Tick(object? sender, EventArgs e)  // أضف ? بعد object
+        private void Timer_Tick(object? sender, EventArgs e)
         {
             if (!isDraggingSlider && VideoPlayer.NaturalDuration.HasTimeSpan)
             {
@@ -130,7 +118,6 @@ namespace SecurePlayer.Pages
                 TotalTimeText.Text = FormatTime(VideoPlayer.NaturalDuration.TimeSpan);
             }
         }
-
 
         private void ProgressSlider_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {

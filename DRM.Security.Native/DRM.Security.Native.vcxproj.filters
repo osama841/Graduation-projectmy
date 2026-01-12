@@ -31,6 +31,9 @@
     <Filter Include="Unit\NewFilter1">
       <UniqueIdentifier>{7fc79a5d-e2d6-4d79-a4fd-fa0dabe9fe2b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Modules\WhiteBox">
+      <UniqueIdentifier>{3135941a-b23e-49b1-a077-297ad1e778c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -38,9 +41,6 @@
     </ClInclude>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HardwareID_Exports.h">
-      <Filter>Exports</Filter>
     </ClInclude>
     <ClInclude Include="HardwareInfo.h">
       <Filter>Modules\HardwareID</Filter>
@@ -66,6 +66,19 @@
     <ClInclude Include="VmEnvironmentDetector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Exports\HardwareID_Exports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\WhiteBox\Tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\WhiteBox\WB_Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules\Crypto\AES_Engine.h">
+      <Filter>Modules\Crypto</Filter>
+    </ClInclude>
+
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -105,6 +118,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SecureGateBridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exports\HardwareID_Exports.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\Crypto\AES_Engine.cpp">
+      <Filter>Modules\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Modules\WhiteBox\WB_Engine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

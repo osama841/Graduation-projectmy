@@ -50,7 +50,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.3
           ]
   
   Generating Code...
+  WhiteBox_Exports.cpp
   HardwareID_Exports.cpp
+  Generating Code...
      Creating library C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\x64\Debug\DRM.Security.Native.lib and object C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\x64\Debug\DRM.Security.Native.exp
   DRM.Security.Native.vcxproj -> C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\x64\Debug\DRM.Security.Native.dll
   C:\Users\Osama\Desktop\Graduation projectmy\Graduation project\DRM.Security.Native\x64\Debug\DRM.Security.Native.dll
